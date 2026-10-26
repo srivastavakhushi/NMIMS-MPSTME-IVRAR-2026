@@ -1,0 +1,45 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DoorMech : MonoBehaviour 
+{
+
+	public Vector3 OpenRotation, CloseRotation;
+
+	public float rotSpeed = 1f;
+
+	public bool doorBool;
+
+
+	void Start()
+	{
+		doorBool = false;
+	}
+		
+	void OnTriggerStay(Collider col)
+	{
+#if ENABLE_INPUT_SYSTEM
+		bool ePressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame;
+#else
+		bool ePressed = Input.GetKeyDown(KeyCode.E);
+#endif
+		if(col.gameObject.tag == ("Player") && ePressed)
+		{
+			if (!doorBool)
+				doorBool = true;
+			else
+				doorBool = false;
+		}
+	}
+
+	void Update()
+	{
+		if (doorBool)
+			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.Euler (OpenRotation), rotSpeed * Time.deltaTime);
+		else
+			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.Euler (CloseRotation), rotSpeed * Time.deltaTime);	
+	}
+
+}
+

@@ -1,0 +1,925 @@
+17:35:45.111  4241 30046 I [NAV][BAR] Active2dPanelDataSourceImpl: onAppStatusChanged: {"appState":[{"name":"com.oculus.systemux/com.oculus.panelapp.activetaskbar.ActiveTaskBarActivity","panels":[{"panelId":1,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"85b2359b-de78-4c3c-962a-1ba2a83d44f1"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.library.app.NavigatorLibraryActivity","panels":[{"panelId":2,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"123d938d-bf5b-4c9a-ae2f-3364f0fcfa16"}]},{"name":"com.oculus.vrshell/com.oculus.panelapp.displaybar.DisplayBarActivity","panels":[{"panelId":3,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"6da82227-2b3a-489d-9380-470d87d45ae1"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.notifications.app.NotificationsActivity","panels":[{"panelId":67,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"9cd62822-8fe1-4d82-a369-e5458594aa61"}]},{"name":"com.oculus.vrshell/com.oculus.panelapp.bloom.BloomActivity","panels":[{"panelId":4,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"f1caa259-3adf-44aa-a855-418f975d0a66"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.systembar.app.SystemBarActivity","panels":[{"panelId":5,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"dfcc4ad0-afd5-4643-ab07-7bc04a428d51"}]},{"name":"com.oculus.panelapp.library/com.oculus.globalsearch.GlobalSearchActivity","panels":[{"panelId":45,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"f7cb5eb9-82f8-4857-90fc-7d5b87fc5bcc"}]},{"name":"com.oculus.socialplatform/com.oculus.panelapp.people.BlendedPeopleActivity","panels":[{"panelId":51,"shouldBePrePinned":false,"state":"Focused","volumetricWindowToken":"cd0a6844-88bf-4d8d-8166-21dedf892527"}]}],"mostRecent":["com.oculus.socialplatform/com.oculus.panelapp.people.BlendedPeopleActivity","com.oculus.panelapp.library/com.oculus.navigator.library.app.NavigatorLibraryActivity","com.oculus.panelapp.library/com.oculus.navigator.notifications.app.NotificationsActivity","com.oculus.panelapp.library/com.oculus.globalsearch.GlobalSearchActivity","com.oculus.panelapp.library/com.oculus.navigator.systembar.app.SystemBarActivity","com.oculus.vrshell/com.oculus.panelapp.bloom.BloomActivity","com.oculus.vrshell/com.oculus.panelapp.displaybar.DisplayBarActivity"]}
+17:35:45.111  4241  8043 I [NAV][BAR] Active2dPanelDataSourceImpl: onAppStatusChanged: {"appState":[{"name":"com.oculus.systemux/com.oculus.panelapp.activetaskbar.ActiveTaskBarActivity","panels":[{"panelId":1,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"85b2359b-de78-4c3c-962a-1ba2a83d44f1"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.library.app.NavigatorLibraryActivity","panels":[{"panelId":2,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"123d938d-bf5b-4c9a-ae2f-3364f0fcfa16"}]},{"name":"com.oculus.vrshell/com.oculus.panelapp.displaybar.DisplayBarActivity","panels":[{"panelId":3,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"6da82227-2b3a-489d-9380-470d87d45ae1"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.notifications.app.NotificationsActivity","panels":[{"panelId":67,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"9cd62822-8fe1-4d82-a369-e5458594aa61"}]},{"name":"com.oculus.vrshell/com.oculus.panelapp.bloom.BloomActivity","panels":[{"panelId":4,"shouldBePrePinned":false,"state":"Foreground","volumetricWindowToken":"f1caa259-3adf-44aa-a855-418f975d0a66"}]},{"name":"com.oculus.panelapp.library/com.oculus.navigator.systembar.app.SystemBarActivity","panels":[{"panelId":5,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"dfcc4ad0-afd5-4643-ab07-7bc04a428d51"}]},{"name":"com.oculus.panelapp.library/com.oculus.globalsearch.GlobalSearchActivity","panels":[{"panelId":45,"shouldBePrePinned":false,"state":"Background","volumetricWindowToken":"f7cb5eb9-82f8-4857-90fc-7d5b87fc5bcc"}]},{"name":"com.oculus.socialplatform/com.oculus.panelapp.people.BlendedPeopleActivity","panels":[{"panelId":51,"shouldBePrePinned":false,"state":"Focused","volumetricWindowToken":"cd0a6844-88bf-4d8d-8166-21dedf892527"}]}],"mostRecent":["com.oculus.socialplatform/com.oculus.panelapp.people.BlendedPeopleActivity","com.oculus.panelapp.library/com.oculus.navigator.library.app.NavigatorLibraryActivity","com.oculus.panelapp.library/com.oculus.navigator.notifications.app.NotificationsActivity","com.oculus.panelapp.library/com.oculus.globalsearch.GlobalSearchActivity","com.oculus.panelapp.library/com.oculus.navigator.systembar.app.SystemBarActivity","com.oculus.vrshell/com.oculus.panelapp.bloom.BloomActivity","com.oculus.vrshell/com.oculus.panelapp.displaybar.DisplayBarActivity"]}
+17:35:45.115  2447  2539 I @@@           : setgraphicbuffers: SUCCESS posting result to queue
+17:35:45.120  5952  6004 I [SEO] PanelRenderLayer: ResetSurface controlbar13 550 x 60 x 0 - shape:flat stereo:mono shouldSetStereoSizeCorrection:true parsedStereoSizeCorrection:false isVolumeAperture: false resizeIsConfirmed:false
+17:35:45.135  5952  6004 I Shell         : remove cursor: 4293915607 (new count: 0)
+17:35:45.218  1481  1481 D FlashNotifController: requestStartFlashNotification
+17:35:45.218  1481  1481 I FlashNotifController: startFlashNotification: type=1, tag=android
+17:35:45.218  1481  1481 D FlashNotifController: Flash notification is disabled
+17:35:45.219  1481  1481 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+17:35:45.219  1481  1481 E NotificationService: Muting recently noisy 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073
+17:35:45.220  1481  1481 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+17:35:45.221  2081  2081 D OculusNotificationListenerService: Notification posted: 0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073
+17:35:45.223  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073
+17:35:45.223  5952  5952 V [SEO] 0Im     : Notif type found so this is not a client-generated notification, skipping adding default ranking score
+17:35:45.223  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073
+17:35:45.223  5952  5952 D NotifAttributeChecker: Custom data does not contain seen state
+17:35:45.223  5952  5952 D [SEO] 0J2     : setSeenState - seen state for key [0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073] had a cached value of [null]. The attempted update for after is [UNSEEN_AND_UNREAD]. Updated? true
+17:35:45.223  5952  5952 D [SEO] 0J2     : setSeenState - attempting to update the seen state in the server for notification key [0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073]
+17:35:45.223  5952  5952 D [SEO] 0J2     : syncSeenStateToServer - null fbid, gracefully returning
+17:35:45.223  5952  5952 D [SEO] 0Im     : setSeenState() - notification key [0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073]: was seen state tracker updated? [true] was sbn seen state updated? [false]
+17:35:45.223  5952  5952 I [SEO] 0Im     : addNotificationToCache() - key = 0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073, type = oculus_messaging_update_unread_threads_count, isToast = false, isBlocked with reason = true Blocked by does not contain all markers for a toast notification
+17:35:45.223  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073
+17:35:45.223  5952  5952 D VrNotificationAnalytics: logNotificationPosted: key(0|com.oculus.socialplatform|10112|oculus_messaging_update_unread_threads_count|10073), type(oculus_messaging_update_unread_threads_count), isToast(false)
+17:35:45.225  2081  2081 D OculusNotificationListenerService: Notification posted: 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073
+17:35:45.226  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073
+17:35:45.226  5952  5952 V [SEO] 0Im     : Notif type found so this is not a client-generated notification, skipping adding default ranking score
+17:35:45.226  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073
+17:35:45.226  5952  5952 D NotifAttributeChecker: Custom data does not contain seen state
+17:35:45.226  5952  5952 D [SEO] 0J2     : setSeenState - seen state for key [0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073] had a cached value of [null]. The attempted update for after is [UNSEEN_AND_UNREAD]. Updated? true
+17:35:45.226  5952  5952 D [SEO] 0J2     : setSeenState - attempting to update the seen state in the server for notification key [0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073]
+17:35:45.226  5952  5952 D [SEO] 0J2     : syncSeenStateToServer - null fbid, gracefully returning
+17:35:45.226  5952  5952 D [SEO] 0Im     : setSeenState() - notification key [0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073]: was seen state tracker updated? [true] was sbn seen state updated? [false]
+17:35:45.226  5952  5952 I [SEO] 0Im     : addNotificationToCache() - key = 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073, type = oculus_people_app_opened, isToast = false, isBlocked with reason = true Blocked by does not contain all markers for a toast notification
+17:35:45.226  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073
+17:35:45.226  5952  5952 D VrNotificationAnalytics: logNotificationPosted: key(0|com.oculus.socialplatform|10111|oculus_people_app_opened|10073), type(oculus_people_app_opened), isToast(false)
+17:35:45.227  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@153dc0c
+17:35:45.234  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@c1565d1
+17:35:45.243  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:45.244  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@2398e0d
+17:35:45.251  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@6d7a1c2
+17:35:45.256  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:45.265  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:45.272  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:45.467   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:45.570  4357  4604 E ErrorHandlingStreamEventHandler.cpp: Exception thrown from SteamEventHandler Presence
+17:35:45.725  5319  5319 W ip            : type=1400 audit(0.0:1813): avc:  denied  { search } for  name="net" dev="dm-49" ino=50 scontext=u:r:shell:s0 tcontext=u:object_r:net_data_file:s0 tclass=dir permissive=0
+17:35:45.825     0     0 I binder        : 5350:5350 ioctl 40046210 7ff830b550 returned -22
+17:35:45.829  5341  5341 W ip            : type=1400 audit(0.0:1814): avc:  denied  { search } for  name="net" dev="dm-49" ino=50 scontext=u:r:shell:s0 tcontext=u:object_r:net_data_file:s0 tclass=dir permissive=0
+17:35:45.834     0     0 I binder        : 5353:5353 ioctl 40046210 7fddf0ec80 returned -22
+17:35:45.870   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:45.879  8603  8603 I abb           : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+17:35:45.846     0     0 I binder        : 5359:5359 ioctl 40046210 7fd5a43220 returned -22
+17:35:45.874     0     0 I binder        : 5372:5372 ioctl 40046210 7ff33023d0 returned -22
+17:35:45.875     0     0 I binder        : 5363:5363 ioctl 40046210 7fe8322d70 returned -22
+17:35:45.888     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5361 b tail=0 logMask=10099 pid=0 start=1793016345048000000ns deadline=0ns
+17:35:45.893     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5368 b tail=1 logMask=10099 pid=0 start=0ns deadline=0ns
+17:35:45.898     0     0 I binder        : 5387:5387 ioctl 40046210 7fd12df060 returned -22
+17:35:45.948     0     0 I binder        : 5396:5396 ioctl 40046210 7fcba5ce00 returned -22
+17:35:45.951     0     0 I binder        : 5401:5401 ioctl 40046210 7fee1ac850 returned -22
+17:35:45.958     0     0 I binder        : 5403:5403 ioctl 40046210 7fec5e73d0 returned -22
+17:35:45.961     0     0 W audit         : audit_lost=308 audit_rate_limit=5 audit_backlog_limit=64
+17:35:45.961     0     0 E audit         : rate limit exceeded
+17:35:45.963  1481  1595 W PackageManager: Downgrade detected: Update version code 1 is older than current 674045181
+17:35:45.963  1481  1595 D PackageInstallerSession: Marking session 1076727752 as failed: INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 674045181
+17:35:45.964  1481  1638 E PackageInstallerSession: Failed to verify session 1076727752
+17:35:45.983  2607  2607 I SafetyIntentMgr: [SafetyIntentMgr::isFallBackShellWorldManagerInfo] Shell world manager info not initialized, using fallback
+17:35:46.052     0     0 I binder        : 5437:5437 ioctl 40046210 7fe94f8890 returned -22
+17:35:46.063     0     0 I binder        : 5442:5442 ioctl 40046210 7ffd257a40 returned -22
+17:35:46.103     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5379 b tail=0 logMask=10099 pid=0 start=1793016345104000000ns deadline=0ns
+17:35:46.068  5952 24340 I VrApi         : FPS=71/72,Prd=25ms,Tear=0,Early=0,Stale=3,Stale2/5/10/max=1/0/0/2,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,2419/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=2092MHz,Free=2081MB,PLS=0,Temp=37.7C/0.0C,TW=1.22ms,App=1.19ms,GD=0.00ms,CPU&GPU=6.06ms,LCnt=4(DR14,LM2),GPU%=0.26,CPU%=0.35(W0.37),CFL=11.60/18.14,ICFLp95=16.01,LD=0,SF=0.02,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=261,PoseAgeP95=0.00
+17:35:46.080   939  5450 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.081   939  5450 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.081   939  5450 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.107   939  5473 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.107   939  5473 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.107   939  5473 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.107     0     0 I binder        : 5439:5439 ioctl 40046210 7ffab875b0 returned -22
+17:35:46.121     0     0 I binder        : 5447:5447 ioctl 40046210 7ffb98de40 returned -22
+17:35:46.122     0     0 I binder        : 5453:5453 ioctl 40046210 7fd7bc2810 returned -22
+17:35:46.124     0     0 I binder        : 5455:5455 ioctl 40046210 7ffb2f5310 returned -22
+17:35:46.145     0     0 I binder        : 5466:5466 ioctl 40046210 7fdb4b4070 returned -22
+17:35:46.146     0     0 I binder        : 5457:5457 ioctl 40046210 7fc0aaa6a0 returned -22
+17:35:46.164     0     0 I binder        : 5460:5460 ioctl 40046210 7fd129b8c0 returned -22
+17:35:46.183     0     0 I binder        : 5490:5490 ioctl 40046210 7ff26762c0 returned -22
+17:35:46.193     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5391 b tail=0 logMask=10099 pid=0 start=1793016345111000000ns deadline=0ns
+17:35:46.196     0     0 I binder        : 5495:5495 ioctl 40046210 7ffe180230 returned -22
+17:35:46.213     0     0 I binder        : 5510:5510 ioctl 40046210 7ff435be60 returned -22
+17:35:46.249     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5409 b tail=0 logMask=10099 pid=0 start=1793016345152000000ns deadline=0ns
+17:35:46.123   939  5476 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.123   939  5476 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.134   939  5479 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.134   939  5479 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.134   939  5479 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.139  4596  4596 D MetaCam (CaptureService): onStartCommand(intent = Intent { act=BROADCAST_CAPTURE_STATE cmp=com.oculus.metacam/.capture.CaptureService })
+17:35:46.254     0     0 I binder        : 5519:5519 ioctl 40046210 7fcf53c4f0 returned -22
+17:35:46.150  5952  6012 D SystemButtonHandler: handleKeyEvent: 105 true
+17:35:46.150  5952  6012 D SystemButtonHandler: onGripButtonDown: mButtonState: NONE
+17:35:46.170   939  5491 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.170   939  5491 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.170   939  5491 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.188   939  5501 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.188   939  5501 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.188   939  5501 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.197   939  5503 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.197   939  5503 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.197   939  5503 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.203   939  5507 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.203   939  5507 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.203   939  5507 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.211   939  5511 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.211   939  5511 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.211   939  5511 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.219   939  5514 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.219   939  5514 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.219   939  5514 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.227   939  5516 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.227   939  5516 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.227   939  5516 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.235   939  5521 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.235   939  5521 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.235   939  5521 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.240   939  5526 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.240   939  5526 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.240   939  5526 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.246   939  5528 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.247   939  5528 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.247   939  5528 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.256   939  5530 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.256   939  5530 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.256   939  5530 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.267   939  5533 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.268   939  5533 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.268   939  5533 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.269   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:46.278   939  5537 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.278   939  5537 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.278   939  5537 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.285   939  5540 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.285   939  5540 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.285   939  5540 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.291   939  5542 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.291   939  5542 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.291   939  5542 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.296   939  5545 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.297   939  5545 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.297   939  5545 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.302   939  5548 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.303   939  5548 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.303   939  5548 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.308   939  5550 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:46.310   939  5550 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:46.310   939  5550 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:46.319     0     0 I binder        : 5543:5543 ioctl 40046210 7fc872c200 returned -22
+17:35:46.352  2081  2081 D OculusNotificationListenerService: Notification posted: 0|com.oculus.metacam|50007|null|10070
+17:35:46.355  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:46.355  5952  5952 V [SEO] 0Im     : Adding default ranking score to client generated notification: 100000
+17:35:46.355  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:46.355  5952  5952 D NotifAttributeChecker: Custom data does not contain seen state
+17:35:46.355  5952  5952 D [SEO] 0J2     : setSeenState - seen state for key [0|com.oculus.metacam|50007|null|10070] had a cached value of [UNSEEN_AND_UNREAD]. The attempted update for after is [UNSEEN_AND_UNREAD]. Updated? false
+17:35:46.355  5952  5952 D [SEO] 0Im     : setSeenState() - notification key [0|com.oculus.metacam|50007|null|10070]: was seen state tracker updated? [false] was sbn seen state updated? [false]
+17:35:46.355  5952  5952 I [SEO] 0Im     : addNotificationToCache() - key = 0|com.oculus.metacam|50007|null|10070, type = unspecified, isToast = false, isBlocked with reason = true Blocked by does not contain all markers for a toast notification
+17:35:46.355  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:46.355  5952  5952 D VrNotificationAnalytics: logNotificationPosted: key(0|com.oculus.metacam|50007|null|10070), type(unspecified), isToast(false)
+17:35:46.349     0     0 I binder        : 5551:5551 ioctl 40046210 7fc3dfb9c0 returned -22
+17:35:46.360  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@b252bd3
+17:35:46.362     0     0 I binder        : 5554:5554 ioctl 40046210 7fd2bc1c30 returned -22
+17:35:46.391   972  1465 I Tracking      : CONSTELLATION_Right: [Throttled count=3] Right: : Pushing zero velocity update
+17:35:46.392  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:46.387     0     0 I binder        : 5556:5556 ioctl 40046210 7fd15f4dc0 returned -22
+17:35:46.388     0     0 I binder        : 5558:5558 ioctl 40046210 7ff1831460 returned -22
+17:35:46.396     0     0 I binder        : 5565:5565 ioctl 40046210 7ff781b720 returned -22
+17:35:46.412 11711 11774 E LoggingErrorHandler: Retrofit error, url: [https://graph.oculus.com/user_heartbeat?current_status=ONLINE], kind: [NETWORK], status: [0 - ], headers: , body: []
+17:35:46.413  4719  4719 I [SUI] 1KX     : handleCaptureStateUpdate: captureToDisk false, captureEnabled false, isMetacam true, isExternalDisplay false, isCapturingAbuseReport false, abuseRecordingUUID null
+17:35:46.413  4719  4719 E CaptureStateManager: Error updating state from: X.1FN@34913a8 to: X.1Fs@b75af78
+17:35:46.413  4719  4719 E CaptureStateManager: Error updating state from: X.1FN@34913a8 to: X.1Fs@b75af78
+17:35:46.413  4719  4719 I [SUI] AirlinkUtils: Running as part of SystemUX?true
+17:35:46.413  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Initializing GraphQL executor
+17:35:46.413  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: GraphQL executor initialized successfully: X.1TL
+17:35:46.413  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Requesting access token
+17:35:46.413  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Access token initialized, length: 175
+17:35:46.413  4719  4719 I [SUI] AirlinkUtils: Initializing AirlinkUtils...
+17:35:46.414  4719  4995 I [SUI] MagicCastingAppManager: Sunrise Magic Casting: onServiceConnected() called with casting version:2.0.0.0.3922
+17:35:46.414  1481  2254 W WifiService   : Permission violation - getConfiguredNetworks not allowed for uid=10017, packageName=com.oculus.systemux, reason=java.lang.SecurityException: Location mode is disabled for the device
+17:35:46.415  4719  4719 I [SUI] AirlinkUtils: Sunrise Magic Casting: AirlinkUtils.updateMetacamRecordingState(isRecording) Sunrise Metacam integration gk is disabled
+17:35:46.415  4719  4719 I [SUI] AirlinkUtils: Destroying AirlinkUtils...
+17:35:46.415  4719  4719 I [SUI] AirlinkUtils: Sunrise Magic Casting: Unregistering MagicCastingAppManager
+17:35:46.415  4719  4719 I [SUI] MagicCastingAppManager: Sunrise Magic Casting: Disconnecting from AppManager
+17:35:46.422 11711  5577 I HorizonDsatHelper: fetchTokenValueAsync - callingPackage: com.oculus.horizon, actionName: com.oculus.auth.ACTION_FETCH_HORIZON_DEVICE_SCOPED_CREDENTIALS
+17:35:46.413     0     0 I binder        : 5568:5568 ioctl 40046210 7fda00a0b0 returned -22
+17:35:46.422 11711  5577 I HorizonDsatHelper: fetchTokenAsync - forceRefresh: false, actionName: com.oculus.auth.ACTION_FETCH_HORIZON_DEVICE_SCOPED_CREDENTIALS
+17:35:46.422 11711  5577 I HorizonDsatHelper: Returning stored token
+17:35:46.422 11711  5577 I AuthLogger    : Action succeeded: OBTAIN_TOKEN, callingPackage: com.oculus.horizon, accountType: com.oculus, tokenType: dsat, extras: {logging_source=HorizonDsatHelper, options={"forceRefresh":false,"method":"fetchTokenValueAsync","isCachedToken":true}, token_scope=ROOT, outcome=token, status=success}, duration: 0ms
+17:35:46.422 11711  5577 I HorizonDsatHelper: fetchTokenAsync:: OnResult - callingPackage: com.oculus.horizon, actionName: com.oculus.auth.ACTION_FETCH_HORIZON_DEVICE_SCOPED_CREDENTIALS, forceRefresh: false, isResultPresent: true
+17:35:46.429  5573  5573 I OculusDeveloperHubService: Launching OculusDeveloperHubService
+17:35:46.432  5582  5582 I OculusDeveloperHubService: Thrift Service: Starting
+17:35:46.437  5582  5582 I OculusDeveloperHubService: Thrift Service: Started
+17:35:46.439  4596  4646 I CaptureSessionManager: broadcast capture state to AUI running = false, with mode -1
+17:35:46.439  4596  4646 D MetaCam (CaptureService): Broadcast capture state
+17:35:46.454  2607  4488 V ClientSharedTelemetryStats: App memory usage: PSS=33 MiB, PrivateDirty=22 MiB, PrivateClean=5 MiB, GPU=2.9/4.1 MiB (72% allocated)
+17:35:46.457     0     0 I binder        : 5591:5591 ioctl 40046210 7fe1c25c60 returned -22
+17:35:46.459     0     0 I binder        : 5603:5603 ioctl 40046210 7fcd6237d0 returned -22
+17:35:46.487  5952  6012 D SystemButtonHandler: handleKeyEvent: 105 false
+17:35:46.519     0     0 I binder        : 5627:5627 ioctl 40046210 7feb757460 returned -22
+17:35:46.519     0     0 I binder        : 5630:5630 ioctl 40046210 7fd1ad6570 returned -22
+17:35:46.569     0     0 I binder        : 5646:5646 ioctl 40046210 7fd9f63660 returned -22
+17:35:46.582     0     0 I binder        : 5650:5650 ioctl 40046210 7fe5268ac0 returned -22
+17:35:46.585     0     0 I binder        : 5644:5644 ioctl 40046210 7fd891c540 returned -22
+17:35:46.585     0     0 I binder        : 5653:5653 ioctl 40046210 7fc7c3c720 returned -22
+17:35:46.619     0     0 I binder        : 5665:5665 ioctl 40046210 7fc48d5e80 returned -22
+17:35:46.644     0     0 I binder        : 5671:5671 ioctl 40046210 7fe23ac0b0 returned -22
+17:35:46.669   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:46.683     0     0 I binder        : 5678:5678 ioctl 40046210 7ff0a52fb0 returned -22
+17:35:46.747   972 24367 I Tracking      : INPUT_TRACKING:ControllerMotionModel: [Right] t = 423.194432000 [sec], behavior transition: None (=0) -> NearHeadMoving (=2)
+17:35:46.748  2047 24333 D ControllerManagement: RemoteService::recordControllerStatusUpdate: device 0533fc3262d83606: status: CONNECTED_ACTIVE tracking: ORIENTATION, errors: --
+17:35:46.851     0     0 W healthd       : battery l=97 v=4286 t=37.7 h=2 st=4 c=-76171 fc=3918000 cc=33 chg=a
+17:35:46.896  4596  4596 D MetaCamBroadcastReceiver: action: com.oculus.systemactivities.CAPTURE_STATE_UPDATE
+17:35:46.896  4596  4596 I MetaCamBroadcastReceiver: handleCaptureStateUpdate: captureToDisk false, captureEnabled false, isCapturingAbuseReport false, abuseRecordingUUID null, isMetacam true, isExternalDisplay false
+17:35:46.896  4596  4596 D MetaCam (BatteryStatusBroadcastReceiver): Battery level: 97, battery scale: 100, battery status: 4, battery pct: 97.0
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorFramework: calculateRigidScenePose: Located 8 / 8 anchors in 2b6e5894-ef70-53dd-4dbf-153f88b67da4 for calculating rigid scene pose for com.oculus.guardian
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New Rigid Scene calculated using 8 anchors attached to 1 IAs. 0.20155127000180073 seconds since last update
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Translation difference (mean/min/max): 0.035808454022117076 0.0001505537802586332 0.06265880167484283
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Rotation difference (mean/min/max): 0.011426151031628251 0.011405875906348228 0.011487497016787529
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose: -0.22528912127017975 -1.839574933052063 1.7590162754058838 : 0.6633018255233765 -0.6633018255233765 -0.2450115978717804 -0.2450115829706192
+17:35:46.978  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose moved: 0.00012040368164889514 translation 2.169619438063819e-05 rotation
+17:35:47.036  2900  2977 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:47.038  3486  3583 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:47.059   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:47.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=3,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,2419/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=2092MHz,Free=2081MB,PLS=0,Temp=37.7C/0.0C,TW=1.22ms,App=1.86ms,GD=0.00ms,CPU&GPU=7.66ms,LCnt=5(DR72,LM2),GPU%=0.24,CPU%=0.54(W0.55),CFL=11.56/17.24,ICFLp95=14.62,LD=0,SF=0.02,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=249,PoseAgeP95=0.00
+17:35:47.068   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:47.069  2447 24379 I LayerRender   : Explicit geometry layer count: 1, in slice 0
+17:35:47.179  2447  2503 I VrRuntimeService: RuntimeServiceSDKServer::SetAutoStationaryFloorHeight : RawFromFloor -1.459235
+17:35:47.179  2447  2503 I Guardian      : [SetAutoStationaryFloorHeight] AutoStationary floor height set to: -1.46
+17:35:47.213   972 24367 I Tracking      : INPUT_TRACKING:ControllerMotionModel: [Right] t = 423.660756000 [sec], behavior transition: NearHeadMoving (=2) -> None (=0)
+17:35:47.214  2047 24333 D ControllerManagement: RemoteService::recordControllerStatusUpdate: device 0533fc3262d83606: status: CONNECTED_ACTIVE tracking: POSITION, errors: --
+17:35:47.289     0     0 W healthd       : battery l=97 v=4312 t=37.7 h=2 st=4 c=488 fc=3918000 cc=33 chg=a
+17:35:47.343  1257  1513 I MRSS          : MIXEDREALITY: MrService: renderIteration: (every 10 seconds), screen is: ON, PT is: ON, Depth is: OFF
+17:35:47.357  1257  1513 I MRSS          : MIXEDREALITY: MrServiceView: passthroughLayersToSubmit stats #1: (layerId: successful/total renders) - (1000000006: 6444/6447)  (every 10 sec).
+17:35:47.454  1257  1513 I MRSS          : PTApiClients: 1/1:com.oculus.vrshell,PT=1,EnvDepth=0,VrMode=1,LCnt=1/1(rec=1,proj=0,bg=0),NS=0,Sty=0
+17:35:47.468   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 1699899600
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: rendering over 30.0 sec, session 90.0 sec, dropped_draw_rate: 0.0% (0 failed draw calls)
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - TTFR completed: --, predicted: -- (skipped mid session)
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - TTFR depth rendered: --, computed: -- (skipped mid session)
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - rates: rendering: 71.8/72.0, images: gray 25.0, geometry: 19.9 fps
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - p2pLat: 30.6,52.3,76.9 p2geomLat: 34.2,66.0,551.4 ms, min,avg,max
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - system latency: c2a: -,-,- a2w: -,-,- w2r: -,-,- ms, min,avg,max
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - avg exp/gain  6.3/7.6
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - consecutive frame drops count: 0/0/0 (>1/>3/>7)
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - invalid gaze frames: 0
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - frames with gaze inside fovea / blended / periphery areas (left eye): 0 / 0 / 0
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - dominant Foveation tier id -1
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - dominant AF tier id -1
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - pt high freq required rate: 0.000
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: [Insights] PassthroughTelemetry: - gCapt2pLat: -,-,- gEvent2pLat: -,-,- ms, min,avg,max
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: PassthroughRenderingTelemetry: OcclusionTelemetry: active=false frames=2155 maskAvail=0 maskUpdates=0 reuse>=2/4/8=0/0/0 maskType=-1
+17:35:47.523  1257  1513 I MRSS          : MIXEDREALITY: PassthroughRenderingTelemetry: sendPassthroughRenderingTelemetry: Logging telemetry.
+17:35:47.576  1257  1357 I MRSS          : MIXEDREALITY: DepthStatsCollector: sendTelemetry: Logging depth compute telemetry.
+17:35:47.709   972  1454 I Tracking      : VEGA_MAP_BUILDER: Created keyrig
+17:35:47.714   972  1454 I Tracking      : MapCullingHelpers: Culled 0 L1 nodes, 1 individual keyrigs, and 0 individual points
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:47.769   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:47.769   972  1462 I Tracking      : VioSubmapHelpers: Initializing Submap id = 0, version = 1266089313 relative to Submap id = 2, version = 1331769311.
+17:35:47.769   972  1462 I Tracking      : VioSubmapHelpers: Initializing Submap id = 1, version = 180354431 relative to Submap id = 2, version = 1331769311.
+17:35:47.799   972 24367 I Tracking      : CONSTELLATION:IMU_STATUS: 0x533fc3262d83606 (R): [#Samples=2477] 424.246s | [FusionTracked=0.954, OutputTracked=0.860, OutputValid=0.962] [AccelSat=0.000, GyroSat=0.000] [AccelMinMeanMax: X=-12.689|1.328|8.742, Y=-6.673|1.020|9.907, Z=-12.961|-7.088|7.295] [GyroMinMeanMax: X=-6.274|-0.117|2.857, Y=-3.954|-0.361|4.116, Z=-5.301|-0.019|2.991] [AccelStuck: X=0|0.000, Y=0|0.000, Z=0|0.000] [GyroStuck: X=3|-0.334, Y=2|0.194, Z=3|0.437]  [Current time=424.246s, last log time=419.246s]
+17:35:47.802  4596  4596 D MetaCam (BatteryStatusBroadcastReceiver): Battery level: 97, battery scale: 100, battery status: 4, battery pct: 97.0
+17:35:47.821   977 24327 I SyncBossHAL   : [info   ] syncboss_hal_input_controller.c(125): 0533fc3262d83606: IMU 53 missed/60053 expected (PER 0.09%), 2 max consecutive drops
+17:35:47.827     0     0 I binder        : 5682:5682 ioctl 40046210 7fd71ee880 returned -22
+17:35:47.837     0     0 I binder        : 5686:5686 ioctl 40046210 7fc5b5d3e0 returned -22
+17:35:47.839     0     0 I binder        : 5684:5684 ioctl 40046210 7fdb074300 returned -22
+17:35:47.844     0     0 I binder        : 5688:5688 ioctl 40046210 7ff1c393c0 returned -22
+17:35:47.860     0     0 I binder        : 5693:5693 ioctl 40046210 7fe99977d0 returned -22
+17:35:47.863     0     0 I binder        : 5697:5697 ioctl 40046210 7ffc522090 returned -22
+17:35:47.864     0     0 I binder        : 5695:5695 ioctl 40046210 7ff0322c10 returned -22
+17:35:47.902     0     0 I binder        : 5707:5707 ioctl 40046210 7fc5e2d9e0 returned -22
+17:35:47.933  1257  1357 I MRSS          : Bolt:CVPUtilization: CVP DFS utilization: 4
+17:35:47.933  1257  1357 I MRSS          : Bolt:CVPUtilization: CVP runtime 1535us, frametime 6038529us
+17:35:47.968  1257  1483 I MRSS          : MIXEDREALITY: MrRuntimeCompute: dispatchFrameset : (every 5 seconds). Passthrough: ON, Depth: ON, Camera: ON, VisionInterfaceTelemetry: ON
+17:35:48.028   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 0, version = 1266089313
+17:35:48.028   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:48.029   972  1465 I Tracking      : CONSTELLATION:VISION_STATUS: 0x533fc3262d83606 (R): [#Samples=126] 424.467s | BlobDetection:[#BlobsDetected=(10.47, 5.66)]Matching:[MatchSuccess=0.825, MatchCost=(0.00244, 0.00001), #MatchedBlobs=(4.97, 6.44), #MatchedLeds=(4.79, 5.43), RematchM=0.000, SkipRefine=0.000] MatchMethod:[Prox=0.802, ConstBrute=0.024, AttiBrute=0.000, UnconstBrute=0.000] MatchResets[AnomBlobSize=0.000, SharedMatch=0.000, DenseReacq=0.000] | Fusion:[FusionError=0.000, ImuFromCamMs=(8.476, 1.162), RematchF=0.183] FusionUpdates:[Successful=0.825, Reliable=0.754, TightFusion=0.754, FullPose=0.071, StaticPrior=0.000, StaticForHandTrans=0.000, PoseUpdateMD=(6619.8535, 239441792.0000)] FusionResets[6DoFReset=0.000, ResetSuccess=0.000] FusionStatus[HasPosition=1.000, HasVelocity=1.000]  [Current time=424.467s, last log time=419.428s]
+17:35:48.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=0,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,2419/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=2092MHz,Free=2081MB,PLS=0,Temp=37.7C/0.0C,TW=1.40ms,App=1.43ms,GD=0.00ms,CPU&GPU=5.92ms,LCnt=5(DR32,LM0),GPU%=0.23,CPU%=0.48(W0.50),CFL=11.68/17.25,ICFLp95=14.76,LD=0,SF=0.10,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=277,PoseAgeP95=0.00
+17:35:48.516   972 24324 I Tracking      : BOLT:HexagonTelemetry: Global DSP utilization: 5.85% (292 / 5002 ms), Scalar Util: 85.08%, HVX Util: 52.42%, HMX Util: 0.00%, DMA Active: 0.68%, Freq: 1497.6 MHz, GetPmu: 0.30 ms
+17:35:48.516   972 24324 I Tracking      : boltlib: DSP Rpc stats over 5002 ms: {"HexagonCornerHarrisEdgeIndexedSlicesAsync":52,"HexagonPyramid3x3Async":63,"dd_boltnn_delegate":52}
+17:35:48.554     0     0 I binder        : 5713:5713 ioctl 40046210 7ffff4aa80 returned -22
+17:35:48.588     0     0 I binder        : 5716:5716 ioctl 40046210 7fe003baa0 returned -22
+17:35:48.607  2607  2607 I SafetyIntentMgr: [SafetyIntentMgr::isFallBackShellWorldManagerInfo] Shell world manager info not initialized, using fallback
+17:35:48.627     0     0 I binder        : 5732:5732 ioctl 40046210 7fdee17460 returned -22
+17:35:48.642  4596  4596 D MetaCam (CaptureService): onStartCommand(intent = Intent { act=BROADCAST_CAPTURE_STATE cmp=com.oculus.metacam/.capture.CaptureService })
+17:35:48.643     0     0 I logd          : logdr: UID=2000 GID=2000 PID=5721 b tail=0 logMask=10099 pid=0 start=1793016348172000000ns deadline=0ns
+17:35:48.683     0     0 I binder        : 5750:5750 ioctl 40046210 7fe7b857d0 returned -22
+17:35:48.711   939  5751 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.711   939  5751 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.711   939  5751 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.721   939  5755 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.721   939  5755 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.721   939  5755 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.728   939  5757 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.728   939  5757 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.728   939  5757 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.738   939  5759 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.738   939  5759 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.738   939  5759 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.743   939  5761 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.743   939  5761 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.744   939  5761 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.754   939  5765 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.754   939  5765 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.754   939  5765 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.760   939  5769 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.760   939  5769 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.760   939  5769 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.766   939  5771 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.767   939  5771 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.767   939  5771 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.772   939  5773 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.773   939  5773 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.773   939  5773 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.778   939  5775 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.779   939  5775 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.779   939  5775 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.791   939  5780 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.791   939  5780 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.791   939  5780 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.797   939  5782 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.797   939  5782 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.797   939  5782 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.787     0     0 I binder        : 5778:5778 ioctl 40046210 7fe235c830 returned -22
+17:35:48.804   939  5789 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.804   939  5789 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.804   939  5789 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.810   939  5792 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.810   939  5792 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.810   939  5792 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.818   939  5794 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.818   939  5794 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.818   939  5794 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.828   939  5799 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.828   939  5799 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.828   939  5799 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.834   939  5801 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.835   939  5801 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.835   939  5801 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.841   939  5803 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.841   939  5803 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.841   939  5803 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.846   939  5805 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.847   939  5805 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.847   939  5805 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.850  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:48.850  5952  5952 V [SEO] 0Im     : Adding default ranking score to client generated notification: 100000
+17:35:48.850  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:48.850  5952  5952 D NotifAttributeChecker: Custom data does not contain seen state
+17:35:48.850  5952  5952 D [SEO] 0J2     : setSeenState - seen state for key [0|com.oculus.metacam|50007|null|10070] had a cached value of [UNSEEN_AND_UNREAD]. The attempted update for after is [UNSEEN_AND_UNREAD]. Updated? false
+17:35:48.850  5952  5952 D [SEO] 0Im     : setSeenState() - notification key [0|com.oculus.metacam|50007|null|10070]: was seen state tracker updated? [false] was sbn seen state updated? [false]
+17:35:48.850  5952  5952 I [SEO] 0Im     : addNotificationToCache() - key = 0|com.oculus.metacam|50007|null|10070, type = unspecified, isToast = false, isBlocked with reason = true Blocked by does not contain all markers for a toast notification
+17:35:48.850  5952  5952 V [SEO] 0Im     : isNotificationAToast() - isToastPriority = false, isValidToast = false, isWifiCaptivePortal = false, isRecommendation = false, sbn.key = 0|com.oculus.metacam|50007|null|10070
+17:35:48.850  5952  5952 D VrNotificationAnalytics: logNotificationPosted: key(0|com.oculus.metacam|50007|null|10070), type(unspecified), isToast(false)
+17:35:48.851  2081  2081 D OculusNotificationListenerService: Notification posted: 0|com.oculus.metacam|50007|null|10070
+17:35:48.854  4719  4719 E BackgroundThreadExecutor: Refusing to execute task because BackgroundThreadExecutor instance is destroyed: X.1Ko@a82180e
+17:35:48.856   939  5807 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.856   939  5807 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.856   939  5807 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.864   939  5809 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.864   939  5809 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.864   939  5809 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.870  4241  4241 I [NAV][BAR] GetNotificationBadgeCountUseCase: Received unread notification count: 2
+17:35:48.871   939  5811 E resolv        : res_nsend: used send_dg 43 terrno: 0
+17:35:48.871   939  5811 E resolv        : GetHostByAddrHandler::run: {102 786534 102 983142 2000 0}
+17:35:48.871   939  5811 E resolv        : GetHostByAddrHandler::run: result failed: No address associated with hostname
+17:35:48.886  4719  4719 I [SUI] 1KX     : handleCaptureStateUpdate: captureToDisk false, captureEnabled false, isMetacam true, isExternalDisplay false, isCapturingAbuseReport false, abuseRecordingUUID null
+17:35:48.886  4719  4719 E CaptureStateManager: Error updating state from: X.1FN@34913a8 to: X.1Fs@b75af78
+17:35:48.886  4719  4719 E CaptureStateManager: Error updating state from: X.1FN@34913a8 to: X.1Fs@b75af78
+17:35:48.886  4719  4719 I [SUI] AirlinkUtils: Running as part of SystemUX?true
+17:35:48.887  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Initializing GraphQL executor
+17:35:48.887  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: GraphQL executor initialized successfully: X.1TL
+17:35:48.887  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Requesting access token
+17:35:48.887  4719  4719 I [SUI] MagicCastingAppManagerV2: Sunrise Magic Casting: Access token initialized, length: 175
+17:35:48.887  4719  4719 I [SUI] AirlinkUtils: Initializing AirlinkUtils...
+17:35:48.887  4719  4995 I [SUI] MagicCastingAppManager: Sunrise Magic Casting: onServiceConnected() called with casting version:2.0.0.0.3922
+17:35:48.887  1481  2254 W WifiService   : Permission violation - getConfiguredNetworks not allowed for uid=10017, packageName=com.oculus.systemux, reason=java.lang.SecurityException: Location mode is disabled for the device
+17:35:48.888  4719  4719 I [SUI] AirlinkUtils: Sunrise Magic Casting: AirlinkUtils.updateMetacamRecordingState(isRecording) Sunrise Metacam integration gk is disabled
+17:35:48.888  4719  4719 I [SUI] AirlinkUtils: Destroying AirlinkUtils...
+17:35:48.888  4719  4719 I [SUI] AirlinkUtils: Sunrise Magic Casting: Unregistering MagicCastingAppManager
+17:35:48.888  4719  4719 I [SUI] MagicCastingAppManager: Sunrise Magic Casting: Disconnecting from AppManager
+17:35:48.905  4596  4646 I CaptureSessionManager: broadcast capture state to AUI running = false, with mode -1
+17:35:48.906  4596  4646 D MetaCam (CaptureService): Broadcast capture state
+17:35:48.923 23756 23793 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:49.060   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:49.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=1,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,2419/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=2092MHz,Free=2081MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.44ms,GD=0.00ms,CPU&GPU=6.09ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.25(W0.27),CFL=11.69/17.00,ICFLp95=14.75,LD=0,SF=0.16,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=249,PoseAgeP95=0.00
+17:35:49.068   972  1462 I Tracking      : Vega: [INSIGHTS] Mode=DescriptorVega,6DoF,Agg=58s,Inl=5,37,53,Mem=51.9,FrameDur=17.0,42.5,PoseLat=2.5,28.5,CamImuLat=12.2,14.4,Jit=0.0,0.1,Drops(Cam=0,IMU=0),MeanIr=1932.7,Exp(3.6ms,g=3,I=75)(5.6ms,g=7,I=68)(5.6ms,g=7,I=83)(4.3ms,g=5,I=76)
+17:35:49.198  1204  5813 I healthcounters: healthcounters::hcstore: Starting upload.
+17:35:49.378  4596  4596 D MetaCamBroadcastReceiver: action: com.oculus.systemactivities.CAPTURE_STATE_UPDATE
+17:35:49.378  4596  4596 I MetaCamBroadcastReceiver: handleCaptureStateUpdate: captureToDisk false, captureEnabled false, isCapturingAbuseReport false, abuseRecordingUUID null, isMetacam true, isExternalDisplay false
+17:35:49.547   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:49.559   972 24367 D TrackingService: 533fc3262d83606: isControllerInHand(16743.40s): 0 ctEnabled: 1 btnPress(16740.83s): 0 btnOrTpdTouch(16740.10s): 0 btnOrTpdProx(16741.77s): 0 static(16743.40s): 0 thbstkOffCenter(16616.34s): 0 
+17:35:49.560   972 24367 D TrackingService: [HANDTRACKING] Controller 533fc3262d83606 in hand: N, valid: Y
+17:35:49.560  2047 24333 D ControllerManagement: RemoteService::recordControllerStatusUpdate: device 0533fc3262d83606: status: CONNECTED_ACTIVE tracking: POSITION, errors: --
+17:35:49.573  2447  2587 I ControllerHandsTransitionObserver: HANDTRACKING going to hand mode since there is no controller detected in hand
+17:35:49.573  2447  2587 I ControllerHandsTransitionObserver: HANDTRACKING Setting pref store signal to Hands expecting response from VROS
+17:35:49.576  2447  2587 W InputPreferenceStoreListener: HANDTRACKING SetMultimodalityEnabled to 0 but it is already 0
+17:35:49.576  1262  1507 I TrackingFidelityService: Received hand/controller update: hand_tracking_enabled
+17:35:49.578  2047  2079 D ControllerManagement: onHandTrackingStateChanged
+17:35:49.578   978   978 W OculusWifi    : TxPowerManager does not exist.
+17:35:49.578  2447  2587 I ServiceInputManager_Modality: HANDTRACKING processed new decision from ModalityTransitionsPolicyManager
+17:35:49.579  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 16 0
+17:35:49.580  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/right/interaction_profiles/oculus/touch_controller, -1
+17:35:49.580  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, 3
+17:35:49.580   972  1084 I Tracking      : SelftrackedHeadsetSide: onSuspend
+17:35:49.581  5952  6004 I [SEO] ShellInputConfigurationDataProvider: InteractionMode changed, mode: Null activation method: No Device Present displayTimeActivated 16743.930289
+17:35:49.581  1262  1507 I TrackingFidelityService: Request(s)={constellation:0,hands:3,environment_lighting:5,keyboard:0,scene_reconstruction:0,surface_inputs:0,}, Mux mode idx=1, name=handTracking, score=-1985
+17:35:49.581  1262  1507 I TrackingFidelityService: beginTransition[worldTracking]: default(0)->handTracking(1)
+17:35:49.581  1262  1507 I TrackingFidelityService: _applyMuxModeLockedInternal: Applying camera mux mode handTracking via requestFeaturesWithFidelitiesLocked
+17:35:49.581   977   977 I SensorService : [worldTracking] Setting camera mux mode to 1
+17:35:49.581   977   977 I SensorService : updating CameraStream mux states
+17:35:49.582   972  1465 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.582   972  1465 I SensorDataTransforms: [constellation:constellation] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.582   972  1465 I SensorDataTransforms: [constellation:constellation] Signaling start of the mode transition
+17:35:49.582   972  1465 I TrackingService: [constellation:constellation] Start configuration update starting
+17:35:49.582   972  1465 I TrackingService: [constellation:constellation] Start configuration update done
+17:35:49.582   972  1468 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.582   972  1468 D SensorControl : onMuxStateUpdate started for modeIdentifier[cameraSystemName[worldTracking]-modeId[1] ]
+17:35:49.582   972  1468 I SensorDataTransforms: [ExpCtl:exposure_control_worldTracking] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.582   972  1465 I SensorDataTransforms: [constellation:constellation] Mux mode updates successfully staged
+17:35:49.582   972  1468 I SensorDataTransforms: [ExpCtl:exposure_control_worldTracking] Signaling start of the mode transition
+17:35:49.582   972  1465 D TrackingService: [constellation]start onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.582   972  1468 I SensorDataTransforms: [ExpCtl:exposure_control_worldTracking] Mux mode updates successfully staged
+17:35:49.582   972  1468 D SensorControl : onMuxStateUpdate ended for modeIdentifier[cameraSystemName[worldTracking]-modeId[1] ]
+17:35:49.582   972  1465 D TrackingService: [constellation][constellation]handleMuxModeNotification started for muxMode[worldTracking: handTracking]
+17:35:49.582   972  1466 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.582   972  1466 I SensorDataTransforms: [hand:hand] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.582   972  1466 I SensorDataTransforms: [hand:hand] Mux mode updates successfully staged
+17:35:49.582   972  1466 D TrackingService: [hand]start onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.582   972  1466 D TrackingService: [HANDTRACKINGGLUE] handleMuxModeNotification
+17:35:49.582   972  1466 D TrackingService: [HANDTRACKINGGLUE] handleStateChange muxMode=handTracking
+17:35:49.582   972  1466 D TrackingService: [HANDTRACKINGGLUE] startCapability
+17:35:49.582   972  1466 D TrackingService: [HANDTRACKINGGLUE] resumeCapability
+17:35:49.583   972  1462 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.583   972  1462 I SensorDataTransforms: [iot:iot] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.583   972  1462 I SensorDataTransforms: [iot:iot] Signaling start of the mode transition
+17:35:49.583   972  1462 I TrackingService: [iot:iot] Start configuration update starting
+17:35:49.583   972  1462 I TrackingService: [iot:iot] Start configuration update done
+17:35:49.583   972  1462 I SensorDataTransforms: [iot:iot] Mux mode updates successfully staged
+17:35:49.583   972  1462 D TrackingService: [iot]start onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.583   972  1462 D TrackingService: [iot][iot]handleMuxModeNotification started for muxMode[worldTracking: handTracking]
+17:35:49.583   977  1304 D CameraStream  : [hand] Client [Hand(972)] attempting start
+17:35:49.583   972  1462 D TrackingService: [iot][iot]handleMuxModeNotification finished for muxMode[worldTracking: handTracking]
+17:35:49.583   977  1323 D CameraStream  : [constellation] Client [Cnst(972)] attempting stop
+17:35:49.583   972  1462 D TrackingService: [iot]end onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.583   972  1462 I TrackingService: [                         iot:iot] Mux Mode Transition from sensor service: default -> handTracking transition time: 0 ms
+17:35:49.583   977  1304 I CameraClientManager: [Hand(972)][hand] client started (estimated 1 started clients total)
+17:35:49.583   977  1304 I CameraClientManager: [[Hand(972)][hand]] definitely starting stream
+17:35:49.583   977  1323 I CameraClientManager: [Cnst(972)][constellation] client stopped (estimated 0 started clients remaining)
+17:35:49.583   977  1323 I CameraClientManager: [[Cnst(972)][constellation]] definitely stopping stream
+17:35:49.583   977   977 I SensorService : ending update to CameraStream mux states
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] Latest MuxModeSettings: 1
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: object, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583   972  1467 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: mr_monochrome, slots: SLOT_0 SLOT_2 
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: iot, slots: SLOT_0 SLOT_2 
+17:35:49.583   972  1467 I SensorDataTransforms: [object:object] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: hand, slots: SLOT_1 SLOT_3 
+17:35:49.583   972  1467 I SensorDataTransforms: [object:object] Signaling start of the mode transition
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: active_slots, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583   972  1467 I TrackingService: [object:object] Start configuration update starting
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: exposure_control_worldTracking, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT:INVAL}] purpose: constellation, slots: 
+17:35:49.583  1257  1483 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.583   972  1467 I TrackingService: [object:object] Start configuration update done
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] Latest MuxModeSettings: 1
+17:35:49.583  1257  1483 I SensorDataTransforms: [MrStreamControl:mr_monochrome] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.583   972  1467 I SensorDataTransforms: [object:object] Mux mode updates successfully staged
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: object, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583  1257  1483 I SensorDataTransforms: [MrStreamControl:mr_monochrome] Signaling start of the mode transition
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: mr_monochrome, slots: SLOT_0 SLOT_2 
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: iot, slots: SLOT_0 SLOT_2 
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: hand, slots: SLOT_1 SLOT_3 
+17:35:49.583   972  1467 D TrackingService: [object]start onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: active_slots, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: exposure_control_worldTracking, slots: SLOT_0 SLOT_1 SLOT_2 SLOT_3 
+17:35:49.583   972  1467 D TrackingService: [object][object]handleMuxModeNotification started for muxMode[worldTracking: handTracking]
+17:35:49.583   977   977 I FrameSetDispatcher: [{WT(1,2):INVAL}] purpose: constellation, slots: 
+17:35:49.583   972  1467 D TrackingService: [object][object]handleMuxModeNotification finished for muxMode[worldTracking: handTracking]
+17:35:49.583   972  1467 D TrackingService: [object]end onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.583   972  1467 I TrackingService: [                   object:object] Mux Mode Transition from sensor service: default -> handTracking transition time: 0 ms
+17:35:49.583  1257  1483 I SensorDataTransforms: [MrStreamControl:mr_monochrome] Mux mode updates successfully staged
+17:35:49.583  5952  6004 W [SEO] InputOpenXr: Interaction Profile retrieval failed: /user/eyes_ext
+17:35:49.587   674   707 I SyncBossFW    : 426036 [info   ] {NCM }: No slot with constellation capability found.
+17:35:49.591   977  1304 I SensorService : [worldTracking] Starting cameras for purpose hand
+17:35:49.591   977  1304 I FrameSetCollator: [{WT:INVAL}] Skipping start, already running (camera system worldTracking start count: 5)
+17:35:49.591   977  1304 I SensorService : [worldTracking] Starting camera streams for purpose: hand, current muxmode = 1
+17:35:49.591   977  1304 I CameraClientManager: [[Hand(972)][hand]] stream start completed
+17:35:49.591   977  1323 I SensorService : [worldTracking] Stopping cameras for purpose constellation
+17:35:49.591   977  1323 D NiceCameraSystem: CameraSystem stopping cameras for purpose constellation
+17:35:49.591   977  1323 I SensorService : [worldTracking] Stopping camera streams for purpose: constellation
+17:35:49.591   977  1323 I CameraClientManager: [[Cnst(972)][constellation]] stream stop completed
+17:35:49.591   977  1323 D CameraStream  : [constellation] Client [Cnst(972)]: stop complete
+17:35:49.591   977  1304 D CameraStream  : [hand] Client [Hand(972)]: start complete
+17:35:49.591   972  1465 I Tracking      : CONSTELLATION:TRACKING_ENGINE: ConstellationTrackingEngine::onSuspend
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 10 0
+17:35:49.591   972  1465 D TrackingService: constellation: stopCameras finished
+17:35:49.591  1262  1507 I TrackingFidelityService: Setting feature fidelity for feature HANDS to fidelity 3 for muxMode handTracking
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 1 3
+17:35:49.591  1262  1507 E TrackingFidelityService: Requested fidelity level is 5, but mux mode handTracking does not support enabling requested feature environment_lighting.
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 17 0
+17:35:49.591   972  1465 D TrackingService: [constellation][constellation]handleMuxModeNotification finished for muxMode[worldTracking: handTracking]
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 7 0
+17:35:49.591   972  1465 D TrackingService: [constellation]end onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 9 0
+17:35:49.591  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 18 0
+17:35:49.591   972  1465 I TrackingService: [     constellation:constellation] Mux Mode Transition from sensor service: default -> handTracking transition time: 9 ms
+17:35:49.591  1262  1507 I TrackingFidelityService: endTransition[worldTracking]: default(0)->handTracking(1), seqId=0, succeeded=true
+17:35:49.592  1262  1507 I TrackingFidelityService: Received hand/controller update: multimodal_hands_and_controllers_enabled
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 16 0
+17:35:49.593  1262  1507 I TrackingFidelityService: Request(s)={constellation:0,hands:3,environment_lighting:5,keyboard:0,scene_reconstruction:0,surface_inputs:0,}, Mux mode idx=1, name=handTracking, score=-1985
+17:35:49.593  1262  1507 I TrackingFidelityService: beginTransition[worldTracking]: handTracking(1)->handTracking(1)
+17:35:49.593  1262  1507 I TrackingFidelityService: _applyMuxModeLockedInternal: Mode handTracking already set. Returning.
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 10 0
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 1 3
+17:35:49.593  1262  1507 E TrackingFidelityService: Requested fidelity level is 5, but mux mode handTracking does not support enabling requested feature environment_lighting.
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 17 0
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 7 0
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 9 0
+17:35:49.593  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 18 0
+17:35:49.593  1262  1507 I TrackingFidelityService: endTransition[worldTracking]: handTracking(1)->handTracking(1), seqId=-1, succeeded=true
+17:35:49.594  5952  6004 I ShellHsr      : Input: Destroying hand instance: hand=Right
+17:35:49.598  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/right/interaction_profiles/oculus/touch_controller, -1
+17:35:49.598  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, 3
+17:35:49.614   972  1466 I Tracking      : NIMBLE:HTEngineUtil: Loaded user profile path: /odm/etc/handtracking/runtime/common/defaultProfile.msgpack
+17:35:49.659   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyTracking:ExposureControl: [Exposure] Settings: Algorithm nimble Mode low_exposure, initial exposure 0.004000000189989805, initial gain 4
+17:35:49.659   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyTracking:ExposureControl: [Exposure] Initializing hand auto exposure algorithm
+17:35:49.659   972  1466 I Tracking      : NIMBLE:ExposureControl: Initializing exposure control unit for 4 cameras
+17:35:49.684  2447  2587 I ControllerHandsTransitionObserver: HANDTRACKING going to hand mode since there is no controller detected in hand
+17:35:49.684  2447  2587 I ControllerHandsTransitionObserver: HANDTRACKING Setting pref store signal to Hands expecting response from VROS
+17:35:49.684  2447  2587 W InputPreferenceStoreListener: HANDTRACKING SetHandTrackingEnabled to 1 but it is already 1
+17:35:49.684  2447  2587 W InputPreferenceStoreListener: HANDTRACKING SetMultimodalityEnabled to 0 but it is already 0
+17:35:49.685  1262  1507 I TrackingFidelityService: Received hand/controller update: hand_tracking_enabled
+17:35:49.685   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: No generic user profile provided, generating one from default profile
+17:35:49.685  2447  2587 I ServiceInputManager_Modality: HANDTRACKING processed new decision from ModalityTransitionsPolicyManager
+17:35:49.686  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 16 0
+17:35:49.687  1262  1507 I TrackingFidelityService: Request(s)={constellation:0,hands:3,environment_lighting:5,keyboard:0,scene_reconstruction:0,surface_inputs:0,}, Mux mode idx=1, name=handTracking, score=-1985
+17:35:49.687  1262  1507 I TrackingFidelityService: beginTransition[worldTracking]: handTracking(1)->handTracking(1)
+17:35:49.687  1262  1507 I TrackingFidelityService: _applyMuxModeLockedInternal: Mode handTracking already set. Returning.
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 10 0
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 1 3
+17:35:49.687  1262  1507 E TrackingFidelityService: Requested fidelity level is 5, but mux mode handTracking does not support enabling requested feature environment_lighting.
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 17 0
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 7 0
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 9 0
+17:35:49.687  1262  1507 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 18 0
+17:35:49.687  1262  1507 I TrackingFidelityService: endTransition[worldTracking]: handTracking(1)->handTracking(1), seqId=-1, succeeded=true
+17:35:49.687  1262  1506 I TrackingFidelityService: Received hand/controller update: multimodal_hands_and_controllers_enabled
+17:35:49.690  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 16 0
+17:35:49.691  1262  1506 I TrackingFidelityService: Request(s)={constellation:0,hands:3,environment_lighting:5,keyboard:0,scene_reconstruction:0,surface_inputs:0,}, Mux mode idx=1, name=handTracking, score=-1985
+17:35:49.691  1262  1506 I TrackingFidelityService: beginTransition[worldTracking]: handTracking(1)->handTracking(1)
+17:35:49.691  1262  1506 I TrackingFidelityService: _applyMuxModeLockedInternal: Mode handTracking already set. Returning.
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 10 0
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 1 3
+17:35:49.691  1262  1506 E TrackingFidelityService: Requested fidelity level is 5, but mux mode handTracking does not support enabling requested feature environment_lighting.
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 17 0
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 7 0
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 9 0
+17:35:49.691  1262  1506 D TrackingFidelityService: TrackingFidelitySharedMemory - setFeatureFidelity: 18 0
+17:35:49.691  1262  1506 I TrackingFidelityService: endTransition[worldTracking]: handTracking(1)->handTracking(1), seqId=-1, succeeded=true
+17:35:49.697     0     0 W healthd       : battery l=97 v=4311 t=37.7 h=2 st=4 c=1464 fc=3918000 cc=33 chg=a
+17:35:49.708   977 24419 I FrameSetDispatcher: [{WT:INVAL}] 1 older Mux Mode settings are removed.
+17:35:49.708   977 24419 I FrameSetDispatcher: [{WT(1,2):INVAL}] 1 older Mux Mode settings are removed.
+17:35:49.708   972  1467 I TrackingService: [object:object] Configuration update starting
+17:35:49.709   972  1468 I SensorControl : purpose=handExposureControl cameraSystem=worldTracking modeIndex=handTracking
+17:35:49.709   972  1468 I SensorControl : Mapping slotIdx[1] cameraSystem [worldTracking] to controlPurposeName[handExposureControl]
+17:35:49.709   972  1468 I SensorControl : Mapping slotIdx[3] cameraSystem [worldTracking] to controlPurposeName[handExposureControl]
+17:35:49.709   972  1468 I SensorControl : configureExposureAlgorithm: purpose=handExposureControl
+17:35:49.709   972  1468 I SensorControl : purpose=handExposureControl  camera=0, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.709   972  1467 I TrackingService: [object:object] Configuration update done
+17:35:49.709   972  1467 I TrackingService: [object:object] Finish configuration update starting
+17:35:49.709   972  1467 I TrackingService: [object:object] Finish configuration update done
+17:35:49.709   972  1468 I SensorControl : purpose=handExposureControl  camera=1, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=handExposureControl  camera=2, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=handExposureControl  camera=3, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=iotExposureControl cameraSystem=worldTracking modeIndex=handTracking
+17:35:49.710   972  1468 I SensorControl : Mapping slotIdx[0] cameraSystem [worldTracking] to controlPurposeName[iotExposureControl]
+17:35:49.710   972  1468 I SensorControl : Mapping slotIdx[2] cameraSystem [worldTracking] to controlPurposeName[iotExposureControl]
+17:35:49.710   972  1468 I SensorControl : configureExposureAlgorithm: purpose=iotExposureControl
+17:35:49.710   972  1468 I SensorControl : purpose=iotExposureControl  camera=0, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=iotExposureControl  camera=1, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=iotExposureControl  camera=2, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.710   972  1468 I SensorControl : purpose=iotExposureControl  camera=3, exposure=[0.000038, 0.013000]  gain=[0.062500, 15.937500], nominalRateHz=25.000000
+17:35:49.721   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: No user profile is provided, use the generic profile
+17:35:49.721   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: Using Single-View Detector
+17:35:49.721   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: Using optimized resampling with modelTypes: 1WMHHA42Y12025_0=4, 1WMHHA42Y12025_1=4, 1WMHHA42Y12025_2=4, 1WMHHA42Y12025_3=4, 
+17:35:49.721   972  1466 I Tracking      : UnifiedHandBody: [SurfaceInputs] Pipeline::populateSurfaceInputsContext(), SKB [callback=not null, enabled=false, need=false], STP [callback=not null, enabled=false, need=false]
+17:35:49.721   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: Initialized Hand Tracking Pipeline
+17:35:49.722   972  1466 I Tracking      : NIMBLE:SurfaceInputs:SurfaceCalibrationController: SurfaceCalibrationController resumed
+17:35:49.722   972  1466 D TrackingService: [hand]end onMuxStateUpdate. ModeId: default -> handTracking
+17:35:49.722   972  1466 I TrackingService: [                       hand:hand] Mux Mode Transition from sensor service: default -> handTracking transition time: 139 ms
+17:35:49.722   972  1466 I VrSensors-HidlWrapper: Sending mux states (multiple) update to client
+17:35:49.722   972  1466 I SensorDataTransforms: [hand:hand] Staging mux mode updates for {worldTracking: ind-1, seqId-89},
+17:35:49.722   972  1466 W SensorDataTransforms: [hand:hand] A mux mode update is already staged for cs worldTracking mode 1 and sequence ID 89 and will be overwritten.
+17:35:49.722   972  1466 I SensorDataTransforms: [hand:hand] Mux mode updates successfully staged
+17:35:49.722   972  1466 D TrackingService: [hand]start onMuxStateUpdate. ModeId: handTracking -> handTracking
+17:35:49.722   972  1466 D TrackingService: [HANDTRACKINGGLUE] handleMuxModeNotification
+17:35:49.722   972  1466 E TrackingService: [HANDTRACKINGGLUE] Resetting MuxMode handTracking which is already set cameraSystem=worldTracking cachedConfig=default incomingConfig=default cachedHandSlots=2 incomingHandSlots=2 cachedFrameTags=0 incomingFrameTags=0 ageMs=0
+17:35:49.722   972  1466 D TrackingService: [hand]end onMuxStateUpdate. ModeId: handTracking -> handTracking
+17:35:49.722   972  1466 I TrackingService: [                       hand:hand] Mux Mode Transition from sensor service: handTracking -> handTracking transition time: 0 ms
+17:35:49.722   972  1466 D SensorDataTransforms: [hand:hand] Erased 1 stale entries from the staged mux states for worldTracking.
+17:35:49.722   972  1466 I TrackingService: [hand:hand] Configuration update starting
+17:35:49.723   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: setCameraConfigurationHand() cameraIndex 0
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: setCameraConfiguration() cameraIndex 0
+17:35:49.723   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: setCameraConfigurationHand() cameraIndex 1
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: setCameraConfiguration() cameraIndex 1
+17:35:49.723   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: setCameraConfigurationHand() cameraIndex 2
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: setCameraConfiguration() cameraIndex 2
+17:35:49.723   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: setCameraConfigurationHand() cameraIndex 3
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: setCameraConfiguration() cameraIndex 3
+17:35:49.723   972  1466 I TrackingService: [hand:hand] Configuration update done
+17:35:49.723   972  1466 I TrackingService: [hand:hand] Finish configuration update starting
+17:35:49.723   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: finishConfigurationUpdateHand()
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: currentImageSensorConfigurations_ size is 4 in finishConfigurationUpdate()
+17:35:49.723   972  1466 I Tracking      : NIMBLE:CameraHandler: converting currentImageSensorConfigurations_ to engine camera config. numCameras_ 4, currentImageSensorConfigurations_ size 4
+17:35:49.726  2447  2587 I OSHandDataQuerier: OSSDKTRACKING HANDTRACKING HANDS ENABLED
+17:35:49.726  2447  2587 I ServiceHandStateProcessor: HANDTRACKING Control Data last: 2 new: 1
+17:35:49.726  2447  2587 I ServiceHandStateProcessor: HANDTRACKING Tracking Service reports hands ENABLED
+17:35:49.726  2447  2587 I ControllerHandsTransitionObserver: HANDTRACKING New VROS control status: hands enabled
+17:35:49.726  2447  2587 I ModalityTransitionsPolicyManager: HANDTRACKING: Switching to Hands only mode        HANDS
+17:35:49.726  2447  2587 I ModalityTransitionsPolicyManager: HANDTRACKING: transition took 0.041861 seconds
+17:35:49.727   972  1466 I TrackingService: [hand:hand] Finish configuration update done
+17:35:49.727   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: Using optimized resampling with modelTypes: 1WMHHA42Y12025_0=4, 1WMHHA42Y12025_1=4, 1WMHHA42Y12025_2=4, 1WMHHA42Y12025_3=4, 
+17:35:49.727   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyTracking:Personalization: startIfNeeded(): Success
+17:35:49.728   972  1462 I TrackingService: [iot:iot] Configuration update starting
+17:35:49.729   972  1462 I TrackingService: [iot:iot] Configuration update done
+17:35:49.729   972  1462 I TrackingService: [iot:iot] Finish configuration update starting
+17:35:49.729   972  1462 I TrackingService: [iot:iot] Finish configuration update done
+17:35:49.730  1257  1483 I MRSS          : MIXEDREALITY: MrFrameSetConsumerBase: finishConfigurationUpdate: frameType=1 sensor_config_gamma=0.6 hardcoded_gamma(used_in_prod)=0.6000000238418579.
+17:35:49.730  1257  1483 I MRSS          : MIXEDREALITY: ServiceLogic: onCameraFpsConfigured: frameType=Grayscale nominalRateHz=25.
+17:35:49.733  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, -1
+17:35:49.733  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, -1
+17:35:49.735  5952  6004 W [SEO] InputOpenXr: Interaction Profile retrieval failed: /user/eyes_ext
+17:35:49.737  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: reinitRenderingIfRequested: status=0.
+17:35:49.737  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: EglStorage: cleared EGL images
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: clearSharedMemoryBase: clearing
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: acquireSharedMemory
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: clearSharedMemoryBase: clearing
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: acquireSharedMemory: acquired valid buffers after 0 retries
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: acquireSharedMemory: success.
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImplBase: reinitRenderingIfRequested: Reconnected.
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: MrRuntimeImpl enabled features: passthrough=true, depth=false.
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: connection to MrSystemService successful.
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: Resuming capabilities after reconnect
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: onResume: Capability Passthrough on device 2.
+17:35:49.738  1257  1513 I MRSS          : MIXEDREALITY: CalibrationRefresher: MR: MrRuntimeImpl:onResume: Updated refresh interval to 10 seconds.
+17:35:49.739  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: EglStorage: cached 2 EGL images
+17:35:49.739  1257  1513 I MRSS          : MIXEDREALITY: MrRuntimeImpl: Initializing Passthrough Rendering Capability
+17:35:49.740  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 0 status set to OutOfView
+17:35:49.740  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 0 connected (status=4)
+17:35:49.740  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 1 status set to OutOfView
+17:35:49.740  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 1 connected (status=4)
+17:35:49.747  5952  6004 I InputDevice_Hand: HANDTRACKING ADMIRE hand 0: hpm=0 -> shared=1
+17:35:49.747  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/right/interaction_profiles/ext/hand_interaction_ext, 11
+17:35:49.747  5952  6004 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/left/interaction_profiles/ext/hand_interaction_ext, 10
+17:35:49.750  5952  6004 W [SEO] InputOpenXr: Interaction Profile retrieval failed: /user/eyes_ext
+17:35:49.752   972  1466 I Tracking      : UnifiedHandBody: HandBodyPipeline FPS over 11.9s: IOBT=0.0/0.0 PoseSynth=0.0/0.0 CodecAvatar=0.0/0.0 (totals 0/0 0/0 0/0)
+17:35:49.752   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyTracking:ExposureControl: [Throttled count=633] FMM: enabled: true; active: false
+17:35:49.753   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyTracking:ExposureControl: [Frame     1 camera 0] [HT] has_hand =  NO, irradiance_proxy =   8934.8, intensity =  134.5, exposure =  5.016ms, gain =    3
+17:35:49.753   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: Pipeline Latency P50: 26.53ms; Capture Latency P50: 33.87ms [arrival:14.90ms|engine:14.48ms|process:4.49ms]
+17:35:49.753   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: Pipeline Latency P95: 26.53ms; Capture Latency P95: 33.87ms [arrival:14.90ms|engine:14.48ms|process:4.49ms]
+17:35:49.753   972  1466 I Tracking      : NIMBLE:UnifiedHandBodyEngine: Hand Tracking Processed FPS = 0.00 Hz / Camera FPS = 0.00 Hz
+17:35:49.767  1204  5813 I healthcounters: healthcounters::hcstore: Health counters successfully uploaded.
+17:35:49.800  2607  4095 I InputDevice_Hand: HANDTRACKING ADMIRE hand 0: hpm=0 -> shared=1
+17:35:49.800  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, -1
+17:35:49.800  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: unknown/interaction_profiles/oculus/touch_controller, -1
+17:35:49.800  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/right/interaction_profiles/ext/hand_interaction_ext, 11
+17:35:49.800  2607  4095 I OpenXR_ClientState: [OATS]: IP changed: /user/hand/left/interaction_profiles/ext/hand_interaction_ext, 10
+17:35:49.945   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:50.046  2447  2587 I FaceEyeTrackingServerManager_Impl: [FaceEyeTrackingServerManager] - orthofitManager is NULL.
+17:35:50.065  2447  2470 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:50.076  2447 24379 I LayerRender   : Explicit geometry layer count: 1, in slice 0
+17:35:50.088  5952 24340 V ClientSharedTelemetryStats: App memory usage: PSS=540 MiB, PrivateDirty=493 MiB, PrivateClean=33 MiB, GPU=297.6/298.2 MiB (100% allocated)
+17:35:50.088  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=5,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.41ms,App=1.42ms,GD=0.00ms,CPU&GPU=5.88ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.36(W0.40),CFL=11.75/17.28,ICFLp95=14.83,LD=0,SF=0.14,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=246,PoseAgeP95=0.00
+17:35:50.100  4357  4450 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:50.211  4596  4596 D MetaCam (BatteryStatusBroadcastReceiver): Battery level: 97, battery scale: 100, battery status: 4, battery pct: 97.0
+17:35:50.324  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 1 status set to Tracked
+17:35:50.333  5952  6004 I [SEO] ShellInputConfigurationDataProvider: InteractionMode changed, mode: HybridChiral activation method: Hand Presence displayTimeActivated 16744.682095
+17:35:50.334  5952  6004 I ShellHsr      : Input: Creating hand instance: hand=Right
+17:35:50.346   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:50.403  5952  6004 I Shell         : OpenXRSystem::createSwapchain: creationId=392, name=SwapchainRenderTarget.color, type=texture, size=100x100, views=1, mips=1, buffers=1
+17:35:50.403  2447  6129 I VrRuntimeService: CreateSwapChain: 624161984
+17:35:50.403  2447  6129 I VrRuntimeService: CreateSwapChain: api:vk 0 0x2b 100 100 1 1 1 4 3
+17:35:50.403  2447  2539 I @@@           : surface: SUCCESS posting result to queue
+17:35:50.403  2447  6129 V CompositorServer: CreateTextureSwapChain: result importswapchainfromdevice 1
+17:35:50.404  5952  6004 V SwapChain_Vulkan_Memory_Export: Imported texture has requirements 3, ends up index 0
+17:35:50.404  5952  6004 V OpenXR_GPUMemTrace: Swapchain creation, id=810, idx=0, width: 100, height: 100, array size: 1, MemoryAllocationSize: 65 KB
+17:35:50.404  5952  6004 I Shell         : OpenXR swapchain image device memory diagnostic: VkImage=0x00000075031cf500, VkDeviceMemory=0x0000007503e4eb00, size=66740, index=0
+17:35:50.407  5952  6157 W ShellHsr      : Renderer: RenderableFilter has 11 tags, which is more than 10. This is expected to be rare. If this becomes common, consider changing RenderableFilter logic to use something other than linear searches for filtering renderable tags (like registered bitsets).
+17:35:50.408  2447  2587 I SystemGestureDetector: Switching system gesture state from 1 to 0
+17:35:50.418  5952  6004 I ShellHsr      : Renderer: MHE internal image wrapping external resource destroyed.  Vulkan image: 0x75031cf500  Format: R8G8B8A8Srgb  Dimensions: 100x100x1  Mip count: 1  Sample count: 1
+17:35:50.425     0     0 I binder        : 5828:5828 ioctl 40046210 7fe6e3ed80 returned -22
+17:35:50.446  5952  6157 I Shell         : OpenXRSystem::destroySwapchain: 392(0x0000007510fa1e00): texture, 100x100
+17:35:50.446  5952  6157 V OpenXR_GPUMemTrace: Swapchain deletion destroy id=810, idx=0
+17:35:50.446  5952  6157 I SwapChain_Vulkan_Memory_Export: DestroyImportedTextureResourcesVulkan: Destroy imported foveation resources: 0x75031cf3a0
+17:35:50.446  2447  6129 I VrRuntimeService: DestroySwapChain: swapchain=810, deferred=0, lastSubmittedFrameIndex=497821
+17:35:50.457  2447 24379 V CompositorUtil: TryDelete: Deleting 1 swapchains
+17:35:50.457  2447 24379 V Context       : QueryVersion() - Context Version: 3.2
+17:35:50.457  2447 24379 V CompositorUtil: SwapChainDeferDeletion: destroying texture swap chain id=810 ptr=0x75c37bf400, client id=7
+17:35:50.457  2447 24379 V SwapChain_Vulkan_Foveated: DestroyTextureResourcesFoveationVulkan: Destroyed foveation resources
+17:35:50.742   972 24422 I Tracking      : CONSTELLATION: ConstellationPerObjectTelemetryFrameStats::populateEvent(): controller_device_id: 0x533fc3262d83606, handedness: Right, has_constellation_tracking: 1, num_ekf_internal_flyaway: 0, max_imu_samples_dropped_consecutive: 0, num_cam_ahead_of_imu_sleep: 0, num_cam_ahead_of_imu_sleep_timeout: 0
+17:35:50.744   972 24422 I Tracking      : CONSTELLATION: ConstellationPerObjectTelemetryImuStats::populateEvent(): controller_device_id: 0x533fc3262d83606, num_output_flyaways: 0, num_output_flyaways_v2: 0, num_output_flyaways_v3: 0, num_output_flyaways_v4: 0, imu_update_duration_p90: 0.00012833300570491701
+17:35:50.745   972 24422 I Tracking      : CONSTELLATION: ConstellationPerObjectTelemetryImuStats::populateEvent(): controller_device_id: 0x0, num_output_flyaways: 0, num_output_flyaways_v2: 0, num_output_flyaways_v3: 0, num_output_flyaways_v4: 0, imu_update_duration_p90: nan
+17:35:50.746   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:50.746   972 24422 I Tracking      : CONSTELLATION: ConstellationPerObjectTelemetryImuStats::populateEvent(): controller_device_id: 0x0, num_output_flyaways: 0, num_output_flyaways_v2: 0, num_output_flyaways_v3: 0, num_output_flyaways_v4: 0, imu_update_duration_p90: nan
+17:35:50.747   972 24422 I Tracking      : CONSTELLATION: ConstellationPerObjectTelemetryImuStats::populateEvent(): controller_device_id: 0x0, num_output_flyaways: 0, num_output_flyaways_v2: 0, num_output_flyaways_v3: 0, num_output_flyaways_v4: 0, imu_update_duration_p90: nan
+17:35:50.747   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: populateTelemetry (hands_environment_ml_periodic_events)
+17:35:50.748   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: reportHalEvent (hands_environment_ml_periodic_events)
+17:35:50.749   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: populateTelemetry (hands_performance_ml_essential_periodic_events)
+17:35:50.750   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: reportHalEvent (hands_performance_ml_essential_periodic_events)
+17:35:50.751   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: populateTelemetry (hands_quality_ml_essential_periodic_events)
+17:35:50.752   972 24422 I Tracking      : telemetry::MrHandTrackingAggregator: reportHalEvent (hands_quality_ml_essential_periodic_events)
+17:35:50.995     0     0 I binder        : 5833:5833 ioctl 40046210 7fc0ec7740 returned -22
+17:35:51.061   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:51.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=0,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.48ms,GD=0.00ms,CPU&GPU=6.73ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.18(W0.21),CFL=11.72/17.13,ICFLp95=14.80,LD=0,SF=0.18,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=252,PoseAgeP95=0.00
+17:35:51.145   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:51.425 11711 11740 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorFramework: calculateRigidScenePose: Located 8 / 8 anchors in 2b6e5894-ef70-53dd-4dbf-153f88b67da4 for calculating rigid scene pose for com.oculus.guardian
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New Rigid Scene calculated using 8 anchors attached to 1 IAs. 0.20099251999999979 seconds since last update
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Translation difference (mean/min/max): 0.035808339504001196 0.00015067140338942409 0.06265859305858612
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Rotation difference (mean/min/max): 0.011426243698224425 0.01140592247247696 0.01148761436343193
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose: -0.22557641565799713 -1.840070366859436 1.7583876848220825 : 0.6632949709892273 -0.6632949709892273 -0.24503010511398315 -0.24503010511398315
+17:35:52.020  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose moved: 6.107658805376559e-07 translation 3.6385998214427673e-07 rotation
+17:35:52.055  1481  1521 W System        : A resource failed to call close. 
+17:35:52.056  1481  1521 W System        : A resource failed to call release. 
+17:35:52.056  1481  1521 W System        : A resource failed to call release. 
+17:35:52.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=1,Early=0,Stale=1,Stale2/5/10/max=0/0/0/1,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.41ms,GD=0.00ms,CPU&GPU=6.44ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.19(W0.22),CFL=11.74/17.20,ICFLp95=14.74,LD=0,SF=0.16,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=253,PoseAgeP95=0.00
+17:35:52.107   972  1462 I Tracking      : Vega: [INSIGHTS] Mode=DescriptorVega,6DoF,Agg=1s,Inl=36,38,40,Mem=51.8,FrameDur=15.2,21.7,PoseLat=2.5,3.1,CamImuLat=10.0,10.5,Jit=0.0,0.0,Drops(Cam=0,IMU=0),MeanIr=3206.3,Exp(4.4ms,g=3,I=76)(5.7ms,g=7,I=58)(5.7ms,g=7,I=91)(4.8ms,g=5,I=75)
+17:35:52.467  1257  1513 I MRSS          : PTApiClients: 1/1:com.oculus.vrshell,PT=1,EnvDepth=0,VrMode=1,LCnt=1/1(rec=1,proj=0,bg=0),NS=0,Sty=0
+17:35:52.541   972 24367 W Tracking      : CONSTELLATION: Right: Lost position tracking, waiting for 6DoF reset: [#VisionUp=143, #RelUp=60, VelNorm=0.112, CurTimeDur=3.00s, DurThresh=3.00s]
+17:35:52.616   977  1089 I DUMPSYS_LOG   : {"additional_data":{"camera_fps":[{"fps":35.781863465869939,"frames":360,"id":0},{"fps":99.394065182972057,"frames":1000,"id":1},{"fps":99.394065182972057,"frames":1000,"id":2},{"fps":35.781863465869939,"frames":360,"id":3}]},"event":"CameraFPS","service":"SensorService","tid":"492177873712","ts":1793016352616612,"ts_proc":16746958015}
+17:35:52.800   972 24367 I Tracking      : CONSTELLATION:IMU_STATUS: 0x533fc3262d83606 (R): [#Samples=2477] 429.247s | [FusionTracked=1.000, OutputTracked=1.000, OutputValid=1.000] [AccelSat=0.000, GyroSat=0.000] [AccelMinMeanMax: X=-57.401|-7.535|1.983, Y=-23.342|-1.495|10.126, Z=-55.011|-5.458|9.164] [GyroMinMeanMax: X=-0.927|0.092|1.800, Y=-2.405|0.007|3.775, Z=-3.283|-0.127|2.399] [AccelStuck: X=0|0.000, Y=0|0.000, Z=0|0.000] [GyroStuck: X=2|-0.307, Y=2|0.192, Z=2|-0.650]  [Current time=429.247s, last log time=424.246s]
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: Passthrough compute telemetry over 30.0 seconds:
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - using online cal: yes, calibration age: 203.9 minutes
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - frames processed (stereo/depth): 751.0 (751.0/0.0)
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - avg exp/gain stereo: 5.4/6.8 depth: 0.0/0.0
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - per frame: primary: 0.0,0.0,0.0, secondary: 0.0,0.0,0.0, prev mesh: 0.0,0.0,0.0
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - cvp per frame (stereo/depth): count: 1864.2/0.0, extracted: 8123.8/0.0, sparsified: 1864.2/0.0
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - refinement: refine: 187932.0, temporal hist: 511670.0
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughTelemetry: - points: new: 1241574.0, prior: 498876.0, primary: 167314.0, secondary: 335908.0
+17:35:52.936  1257  1357 I MRSS          : MIXEDREALITY: PassthroughComputeCapability: sendComputeTelemetry: Logging telemetry.
+17:35:53.008  1257  1483 I MRSS          : MIXEDREALITY: MrRuntimeCompute: dispatchFrameset : (every 5 seconds). Passthrough: ON, Depth: ON, Camera: ON, VisionInterfaceTelemetry: ON
+17:35:53.036  1257  1513 I MRSS          : MIXEDREALITY: PassthroughCameraState: createDistortionTextures: Creating stereo grayscale distortion textures 144x144.
+17:35:53.048  1257  1513 I MRSS          : MIXEDREALITY: PassthroughCameraState: createDistortionTextures: Not creating color distortion textures
+17:35:53.048  1257  1513 I MRSS          : MIXEDREALITY: PassthroughCameraState: updateCalibration: Refreshed calibration.
+17:35:53.061   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:53.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=0,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.41ms,GD=0.00ms,CPU&GPU=6.48ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.20(W0.21),CFL=11.72/17.11,ICFLp95=14.75,LD=0,SF=0.13,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=253,PoseAgeP95=0.00
+17:35:53.083  2447 24379 I LayerRender   : Explicit geometry layer count: 1, in slice 0
+17:35:53.225   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 180354431
+17:35:53.518   972 24324 I Tracking      : BOLT:HexagonTelemetry: Global DSP utilization: 10.08% (504 / 5001 ms), Scalar Util: 60.96%, HVX Util: 45.30%, HMX Util: 0.00%, DMA Active: 0.62%, Freq: 1497.6 MHz, GetPmu: 0.17 ms
+17:35:53.518   972 24324 I Tracking      : boltlib: DSP Rpc stats over 5001 ms: {"GraphModule":95,"HexagonCornerHarrisEdgeIndexedSlicesAsync":47,"HexagonPyramid3x3Async":62,"dd_boltnn_delegate":47,"dpe_encoder_fusion_boltnn_delegate":81,"dpe_encoder_image_backbone_boltnn_delegate":81,"miramar_detnet_ver0_hta":96}
+17:35:53.870  4241  4437 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:53.923 23756 23793 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:53.934  1257  1357 I MRSS          : Bolt:CVPUtilization: CVP DFS utilization: 4
+17:35:53.934  1257  1357 I MRSS          : Bolt:CVPUtilization: CVP runtime 1644us, frametime 6001262us
+17:35:54.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=1,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.40ms,App=1.39ms,GD=0.00ms,CPU&GPU=6.19ms,LCnt=5(DR0,LM0),GPU%=0.22,CPU%=0.17(W0.24),CFL=11.73/17.22,ICFLp95=14.75,LD=0,SF=0.11,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=244,PoseAgeP95=0.00
+17:35:54.069  4719  4906 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:54.120  5952  6004 I [SEO] ShellInputConfigurationDataProvider: InteractionMode changed, mode: Null activation method: No Device Present displayTimeActivated 16748.468962
+17:35:54.122  1204  1649 D TelemetryService: Upload complete after 250 ms with result: success
+17:35:54.125  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 1 status set to OutOfView
+17:35:54.133  5952  6004 I ShellHsr      : Input: Destroying hand instance: hand=Right
+17:35:54.346   972  1454 I Tracking      : VEGA_MAP_BUILDER: Created keyrig
+17:35:54.347   972  1455 I Tracking      : MapperOperationsRuntimeIPCServer: Triggering Segment Changed Event - Segments: 1
+17:35:54.347  3734 24371 I [CT]          : SP:SU:SessionSegmentUploadManager: Segment Changed - UUID: cd73998c-716f-67ba-95d5-835028aa1ee9  Type: 1  Priority: 10
+17:35:54.347  3734 24371 I [CT]          : SP:SU:SessionSegmentQueue: Adding Segments: 1
+17:35:54.347  3734 24371 I [CT]          : SP:SU:SessionSegmentQueue: Adding Segment - UUID: cd73998c-716f-67ba-95d5-835028aa1ee9  Type: 1  Pri: 10  Index: 1  Size: 2
+17:35:54.349   972  1454 I Tracking      : MapCullingHelpers: Culled 0 L1 nodes, 1 individual keyrigs, and 0 individual points
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap position initial uncertainty too large
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:54.409   972  1462 W Tracking      : VioSubmapHelpers: Submap rotation initial uncertainty too large
+17:35:54.409   972  1462 I Tracking      : VioSubmapHelpers: Initializing Submap id = 0, version = 1339864977 relative to Submap id = 2, version = 1331769311.
+17:35:54.409   972  1462 I Tracking      : VioSubmapHelpers: Initializing Submap id = 1, version = 495279097 relative to Submap id = 2, version = 1331769311.
+17:35:54.419   972  1454 W Tracking      : VEGA_MAPPER:VEGA_MAPPER_TASK: Failed to save map 4180e9cd-d911-a8c6-48c4-61bc5f9e57d9
+17:35:54.419   972  1454 E Tracking      : StructureHelper: RootUid fdc2379f-629f-07e5-ab3e-33b7134137b9 cannot be found in MapDB!
+17:35:54.420   972  1454 E Tracking      : StructureHelper: RootUid 48abb601-b2e1-de8b-1e4b-2841df9e2b96 cannot be found in MapDB!
+17:35:54.420   972  1454 E Tracking      : StructureHelper: RootUid dd571bfa-cbb6-d17d-1ca6-4d466dac1003 cannot be found in MapDB!
+17:35:54.420   972  1454 E Tracking      : StructureHelper: RootUid 7fda29fd-b6f5-ab58-9bf1-4da3f2a12c32 cannot be found in MapDB!
+17:35:54.541   972 24367 W Tracking      : CONSTELLATION: Right: Lost velocity tracking, waiting for 6DoF reset. [#VisionUp=143, #RelUp=60, VelNorm=0.298, CurTimeDur=5.00s, DurThresh=5.00s]
+17:35:54.673   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 0, version = 1339864977
+17:35:54.673   972  1462 W Tracking      : VEGA:HM:MAP_TRACKING: Validation failed on Submap id = 1, version = 495279097
+17:35:54.782  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 2 UID 1000 Initiator: periodic Report size: 57730
+17:35:54.782  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 12 UID 1000 Initiator: periodic Report size: 81964
+17:35:54.782  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 3 UID 1000 Initiator: periodic Report size: 13572
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 5 UID 1000 Initiator: periodic Report size: 13648
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 6 UID 1000 Initiator: periodic Report size: 12364
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 7 UID 1000 Initiator: periodic Report size: 12364
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 10 UID 1000 Initiator: periodic Report size: 12364
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 11 UID 1000 Initiator: periodic Report size: 12364
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 1 UID 1000 Initiator: periodic Report size: 12364
+17:35:54.783  1204  1702 V telemetry-statsd: Fetched statsd reports. Config: 22 UID 1000 Initiator: periodic Report size: 12364
+17:35:55.058  2447  2587 I FaceEyeTrackingServerManager_Impl: [FaceEyeTrackingServerManager] - orthofitManager is NULL.
+17:35:55.062   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:55.065  2447  2470 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=0,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.46ms,GD=0.00ms,CPU&GPU=5.74ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.17(W0.25),CFL=11.70/17.33,ICFLp95=14.79,LD=0,SF=0.18,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=249,PoseAgeP95=0.00
+17:35:55.099  4357  4450 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.145  1481  1807 D TrafficStats  : tagSocket(733) with statsTag=0xffffffff, statsUid=-1
+17:35:55.148   972  1462 I Tracking      : Vega: [INSIGHTS] Mode=DescriptorVega,6DoF,Agg=4s,Inl=25,37,43,Mem=51.7,FrameDur=16.9,22.2,PoseLat=2.5,3.1,CamImuLat=10.5,14.2,Jit=0.0,0.0,Drops(Cam=0,IMU=0),MeanIr=2818.7,Exp(9.6ms,g=13,I=144)(7.3ms,g=10,I=70)(7.3ms,g=10,I=87)(4.7ms,g=5,I=74)
+17:35:55.211  2607  2641 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.211  4668  4811 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.211  3486  3583 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.212  2900  2977 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 1 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.212  4596  4645 W MessageExecutionMonitor: Skipping getStackTrace: target thread state RUNNABLE, MQD callback delayed by 0 ms; risk of ART nterp stack-walk SIGSEGV / suspension timeout
+17:35:55.246  2447  2503 I VrRuntimeService: RuntimeServiceSDKServer::SetAutoStationaryFloorHeight : RawFromFloor -1.457794
+17:35:55.246  2447  2503 I Guardian      : [SetAutoStationaryFloorHeight] AutoStationary floor height set to: -1.46
+17:35:55.406  2447  2587 I ServiceHandStateProcessor: HANDTRACKING hand 1 status set to Tracked
+17:35:55.414  5952  6004 I [SEO] ShellInputConfigurationDataProvider: InteractionMode changed, mode: HybridChiral activation method: Hand Presence displayTimeActivated 16749.763738
+17:35:55.416  5952  6004 I ShellHsr      : Input: Creating hand instance: hand=Right
+17:35:55.431     0     0 I binder        : 5854:5854 ioctl 40046210 7fda731bb0 returned -22
+17:35:55.443     0     0 I binder        : 5856:5856 ioctl 40046210 7fe2269d20 returned -22
+17:35:55.466     0     0 I binder        : 5860:5860 ioctl 40046210 7fcbb0f850 returned -22
+17:35:55.853  2607  4095 I OpenXR_Anchor : executeAnchorQueries: split anchor query enabled
+17:35:55.854  2607  4095 I IStateMachineRecordKeeper: AddHistoryEntry AnchorQuery: Transition  ReadyToQuery -> Querying
+17:35:55.854  2607  4095 I [CT]          : GuardianMapDataMgr: checkRelocalizationStatus: Relocalization started
+17:35:55.854  3734  7786 I [CT]          : SP:AP:AnchorPersistence: loadAvailableAnchorsLocal: appId: com.oculus.guardian, queryMultipleRoomsEnabledAppId: , queryMultipleRoomsEnabledByOpenXrVersion: true, applyEffectiveSingleRoomFilter: false
+17:35:55.855   972  1454 I Tracking      : VEGA_MAPPER:ANCHOR_TASKS: Starting foreground Anchor Discovery task chain
+17:35:55.856  3734  7786 I [CT]          : SP:AP:AnchorLocalStorage: SingleEffectiveRoomFilter: 9 -> 9 anchors, IAFilter: 9 -> 9 anchors
+17:35:55.857  3734  7786 I [CT]          : SP:AP:AnchorPersistence: loadAvailableAnchors: Checking for killswitch based filtering
+17:35:55.857  3734  7786 I [CT]          : SP:SceneAnchorFilterUtil: filterOutEntitiesAndComponents : Guardian:true, App OpenXR Version patch:53 (vs. min patch without filtering 45), appIdInOverrideString:false, ocKillswitch:false, fsKillswitch:false
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 2
+17:35:56.056  2607  4095 I TREX          : Spatial Persistence event: QuerySpacesFound
+17:35:56.056  2607  4095 I TREX          : Updating enabled data components from query results for entity type 3
+17:35:56.056  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.056  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.057  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.058  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.058  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.058  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 4
+17:35:56.058  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000269000
+17:35:56.058  2607  4095 W RuntimeTelemetryThread: [OpenXR_Anchor] component enabled cannot be changed; 1000553000
+17:35:56.059  2607  4095 I [CT]          : MrTrackerMgr: Ignoring abandoned query result. request [674309866080] != current request [0]
+17:35:56.059  2607  4095 I GuardianTelemetry: [ovrStatsThreadGuardian::sendGuardianStateChangeTelemetry] Sending state change event ANCHOR_QUERY_FAILED, dialog 
+17:35:56.060  2607  4095 I GuardianTelemetry: [ovrStatsThreadGuardian::sendGuardianStateChangeTelemetry] Sending state change event GARBAGE_ANCHORS_RETURNED, dialog 
+17:35:56.060  2607  4095 I [CT]          : MrTrackerMgr: Ignoring abandoned query complete event result. request [674309866080] != current request [0]
+17:35:56.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=1,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.41ms,App=1.47ms,GD=0.00ms,CPU&GPU=5.50ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.17(W0.18),CFL=11.64/17.17,ICFLp95=14.73,LD=0,SF=0.17,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=257,PoseAgeP95=0.00
+17:35:56.090  2447 24379 I LayerRender   : Explicit geometry layer count: 1, in slice 0
+17:35:56.123     0     0 I binder        : 5867:5867 ioctl 40046210 7febfa7c40 returned -22
+17:35:56.164  1481  1807 D TrafficStats  : tagSocket(733) with statsTag=0xffffffff, statsUid=-1
+17:35:56.261  2607  4095 I IStateMachineRecordKeeper: AddHistoryEntry AnchorQuery: Transition  Querying -> ReadyToQuery | Query complete
+17:35:56.261  2607  4095 I [CT]          : GuardianMapDataMgr: checkRelocalizationStatus: Relocalization done
+17:35:56.440   972  1466 I Tracking      : NIMBLE:DPE_HandTracker: DPEHandTracker: early calibration update (with 100 samples)
+17:35:56.732 23999 24040 E DeviceConfigTelemetryLogger: onFailure(Retry subscribe)
+17:35:56.733 23999 24040 W SubscribeHandler: Did not get a successful subscribe in time. Trying again in 482095 milliseconds.
+17:35:56.788     0     0 I binder        : 5873:5873 ioctl 40046210 7fec9ca930 returned -22
+17:35:56.822  1204  1681 D OnDemandManager: Fetching on demand statsd reports for config id: 24 and campaign id -20
+17:35:56.920     0     0 I binder        : 5880:5880 ioctl 40046210 7fdbd2c280 returned -22
+17:35:56.920     0     0 I binder        : 5885:5885 ioctl 40046210 7fcf061750 returned -22
+17:35:56.927     0     0 I binder        : 5889:5889 ioctl 40046210 7ffc10ddc0 returned -22
+17:35:56.939     0     0 I binder        : 5896:5896 ioctl 40046210 7fccbf59d0 returned -22
+17:35:56.939     0     0 I binder        : 5894:5894 ioctl 40046210 7fd1533800 returned -22
+17:35:56.949     0     0 I binder        : 5901:5901 ioctl 40046210 7fd54be3a0 returned -22
+17:35:56.959     0     0 I binder        : 5906:5906 ioctl 40046210 7fcf5920f0 returned -22
+17:35:57.062   977  3274 I libcamerahal  : [INSIGHTS][2.00s] heartbeat: [cam0: (0: 100/100/100)] [cam1: (0: 100/100/100)] [cam2: (0: 100/100/100)] [cam3: (0: 100/100/100)]
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorFramework: calculateRigidScenePose: Located 8 / 8 anchors in 2b6e5894-ef70-53dd-4dbf-153f88b67da4 for calculating rigid scene pose for com.oculus.guardian
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New Rigid Scene calculated using 8 anchors attached to 1 IAs. 0.2027453839982627 seconds since last update
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Translation difference (mean/min/max): 0.03577968900572159 0.00014833200839348137 0.06259738653898239
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: Rotation difference (mean/min/max): 0.011418015696108341 0.011397814378142357 0.011479320004582405
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose: -0.22583918273448944 -1.8398371934890747 1.7578840255737305 : 0.6632454991340637 -0.6632454991340637 -0.24516402184963226 -0.24516400694847107
+17:35:57.068  2607  4095 I [CT]          : SP:AF:AnchorAccuracy: New scene origin pose moved: 1.0745379768195562e-06 translation 9.541399492718483e-08 rotation
+17:35:57.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=1,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.41ms,App=1.48ms,GD=0.00ms,CPU&GPU=5.45ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.19(W0.21),CFL=11.65/17.32,ICFLp95=14.75,LD=0,SF=0.14,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=253,PoseAgeP95=0.00
+17:35:57.058     0     0 I binder        : 5913:5913 ioctl 40046210 7fffaf3820 returned -22
+17:35:57.073     0     0 I binder        : 5915:5915 ioctl 40046210 7fec23afe0 returned -22
+17:35:57.087     0     0 I binder        : 5917:5917 ioctl 40046210 7fe666a390 returned -22
+17:35:57.091     0     0 I binder        : 5920:5920 ioctl 40046210 7ff758f8d0 returned -22
+17:35:57.091     0     0 I binder        : 5924:5924 ioctl 40046210 7ff2ba7c30 returned -22
+17:35:57.096     0     0 I binder        : 5922:5922 ioctl 40046210 7ff4d608b0 returned -22
+17:35:57.100     0     0 I binder        : 5926:5926 ioctl 40046210 7fc46ac6b0 returned -22
+17:35:57.164  1481  1807 D TrafficStats  : tagSocket(733) with statsTag=0xffffffff, statsUid=-1
+17:35:57.211     0     0 I binder        : 5937:5937 ioctl 40046210 7ff304a8b0 returned -22
+17:35:57.230     0     0 I binder        : 5942:5942 ioctl 40046210 7fea6df4a0 returned -22
+17:35:57.248     0     0 I binder        : 5953:5953 ioctl 40046210 7ffdd9cc80 returned -22
+17:35:57.248     0     0 I binder        : 5951:5951 ioctl 40046210 7fccd06840 returned -22
+17:35:57.255     0     0 I binder        : 5958:5958 ioctl 40046210 7fc9555590 returned -22
+17:35:57.255     0     0 I binder        : 5962:5962 ioctl 40046210 7ffa5aa930 returned -22
+17:35:57.265     0     0 I binder        : 5973:5973 ioctl 40046210 7fe4e4db10 returned -22
+17:35:57.299     0     0 W healthd       : battery l=97 v=4306 t=37.7 h=2 st=4 c=-50292 fc=3918000 cc=33 chg=a
+17:35:57.333     0     0 I binder        : 6010:6010 ioctl 40046210 7fe286b300 returned -22
+17:35:57.342     0     0 I binder        : 6021:6021 ioctl 40046210 7fe61e1c40 returned -22
+17:35:57.354  1257  1513 I MRSS          : MIXEDREALITY: MrService: renderIteration: (every 10 seconds), screen is: ON, PT is: ON, Depth is: OFF
+17:35:57.366  1257  1513 I MRSS          : MIXEDREALITY: MrServiceView: passthroughLayersToSubmit stats #1: (layerId: successful/total renders) - (1000000006: 7163/7166)  (every 10 sec).
+17:35:57.361     0     0 I binder        : 6025:6025 ioctl 40046210 7fe083d5a0 returned -22
+17:35:57.384     0     0 I binder        : 6035:6035 ioctl 40046210 7fd2329030 returned -22
+17:35:57.389     0     0 I binder        : 6043:6043 ioctl 40046210 7fd6199780 returned -22
+17:35:57.414     0     0 I binder        : 6055:6055 ioctl 40046210 7fc19ead10 returned -22
+17:35:57.478  1257  1513 I MRSS          : PTApiClients: 1/1:com.oculus.vrshell,PT=1,EnvDepth=0,VrMode=1,LCnt=1/1(rec=1,proj=0,bg=0),NS=0,Sty=0
+17:35:57.658  1257  1513 I MRSS          : MIXEDREALITY: AndroidTexture: Feature blurGlacierTextures is enabled.
+17:35:57.800   972 24367 I Tracking      : CONSTELLATION:IMU_STATUS: 0x533fc3262d83606 (R): [#Samples=2477] 434.247s | [FusionTracked=1.000, OutputTracked=1.000, OutputValid=1.000] [AccelSat=0.000, GyroSat=0.000] [AccelMinMeanMax: X=-7.313|-7.271|-7.233, Y=-2.344|-2.311|-2.281, Z=-6.085|-6.040|-6.002] [GyroMinMeanMax: X=-0.006|0.000|0.006, Y=-0.030|-0.023|-0.017, Z=-0.026|-0.019|-0.015] [AccelStuck: X=0|0.000, Y=0|0.000, Z=0|0.000] [GyroStuck: X=0|0.000, Y=0|0.000, Z=0|0.000]  [Current time=434.247s, last log time=429.247s]
+17:35:57.813  4596  4596 D MetaCam (BatteryStatusBroadcastReceiver): Battery level: 97, battery scale: 100, battery status: 4, battery pct: 97.0
+17:35:57.870     0     0 W healthd       : battery l=97 v=4306 t=37.7 h=2 st=4 c=-50292 fc=3918000 cc=33 chg=a
+17:35:58.048  1257  1483 I MRSS          : MIXEDREALITY: MrRuntimeCompute: dispatchFrameset : (every 5 seconds). Passthrough: ON, Depth: ON, Camera: ON, VisionInterfaceTelemetry: ON
+17:35:58.068  5952 24340 I VrApi         : FPS=72/72,Prd=24ms,Tear=2,Early=0,Stale=0,Stale2/5/10/max=0/0/0/0,VSnc=1,Lat=-4,Fov=3,CPU4/GPU=4/4,1478/525MHz,OC=FF,TA=0/0/0,SP=N/N/N,Mem=1353MHz,Free=2006MB,PLS=0,Temp=37.7C/0.0C,TW=1.42ms,App=1.46ms,GD=0.00ms,CPU&GPU=5.87ms,LCnt=5(DR0,LM0),GPU%=0.23,CPU%=0.27(W0.29),CFL=11.54/17.15,ICFLp95=14.78,LD=0,SF=0.14,DpuScale=1.00,LP=1,DVFS=0,ShrpLCnt=1,ShrpR=0.000,SSLCnt=1/2,Preempt=247,PoseAgeP95=0.00
+17:35:58.163  1481  1807 D TrafficStats  : tagSocket(733) with statsTag=0xffffffff, statsUid=-1
+17:35:58.185   972  1462 I Tracking      : Vega: [INSIGHTS] Mode=DescriptorVega,6DoF,Agg=7s,Inl=25,38,45,Mem=51.7,FrameDur=17.1,23.3,PoseLat=2.5,3.2,CamImuLat=10.3,14.2,Jit=0.0,0.0,Drops(Cam=0,IMU=0),MeanIr=3289.8,Exp(3.3ms,g=3,I=75)(4.8ms,g=7,I=56)(4.8ms,g=7,I=96)(4.6ms,g=4,I=74)
